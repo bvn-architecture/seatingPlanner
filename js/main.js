@@ -52,32 +52,7 @@ document.addEventListener("DOMContentLoaded", function(){
         let g = svg.append("g")
             .attr("transform", "translate(1120,38) scale(0.0165)"); // TODO: make this dynamic
 
-        let people = peopleLayer.selectAll("g.person")
-            .data(peopleData.filter(p => p.studio == 'Sydney'))
-            .enter().append("g")
-            .classed("person", true)
-            .attr('data-name', p => p.selectorName)
-            .call(d3.drag()
-                .on("start", dragstarted)
-                .on("drag", dragged)
-                .on("end", dragended));
-        people.append("circle")
-            .attr("cx", (d) => d.x)
-            .attr("cy", (d) => d.y)
-            .attr("r", radius * 2)
-            .classed("person-handle", true);
-        people.append("circle")
-            .attr("cx", (d) => d.x)
-            .attr("cy", (d) => d.y)
-            .attr("r", radius)
-            .style("fill", (d, i) => color(i))
-            .classed("person-dot", true);
-        people.append("text")
-            .attr('x', (d) => d.x)
-            .attr('y', (d) => d.y)
-            .attr("text-anchor", "middle")
-            .text((d) => d.displayName)
-            .classed("person-label", true);
+        drawPeople();
             
 
         backgroundLayer.selectAll(".desk")
@@ -238,6 +213,35 @@ document.addEventListener("DOMContentLoaded", function(){
 
             let i = peopleData.findIndex((p) => p.FirstName==e.FirstName && p.LastName==e.LastName);
             peopleData[i].placed = "No";
+
+        function drawPeople() {
+            let people = peopleLayer.selectAll("g.person")
+                .data(peopleData.filter(p => p.studio == 'Sydney'))
+                .enter().append("g")
+                .classed("person", true)
+                .classed("focused", p => p.highlighted)
+                .attr('data-name', p => p.selectorName)
+                .call(d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    .on("end", dragended));
+            people.append("circle")
+                .attr("cx", (d) => d.x)
+                .attr("cy", (d) => d.y)
+                .attr("r", radius * 2)
+                .classed("person-handle", true);
+            people.append("circle")
+                .attr("cx", (d) => d.x)
+                .attr("cy", (d) => d.y)
+                .attr("r", radius)
+                .style("fill", (d, i) => color(i))
+                .classed("person-dot", true);
+            people.append("text")
+                .attr('x', (d) => d.x)
+                .attr('y', (d) => d.y)
+                .attr("text-anchor", "middle")
+                .text((d) => d.displayName)
+                .classed("person-label", true);
         }
     });
 
