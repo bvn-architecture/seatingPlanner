@@ -28,6 +28,11 @@ document.addEventListener("DOMContentLoaded", function(){
         console.log(bounds);
         svg.attr("viewBox", `${bounds.xMin} ${bounds.yMin} ${bounds.xMax-bounds.xMin} ${bounds.yMax-bounds.yMin}`);
         
+        let p1 = {x:-16220, y: 16770};
+        let p2 = {x:-41646, y: 17186};
+        let p3 = {x:-41646, y: 41065};
+        let p4 = {x:-13427, y: 40870};
+        
         peopleData = peopleData.map((person) => ({
                 x: getCoord(person.x, bounds.xMin, bounds.xMax),
                 y: getCoord(person.y, bounds.yMin, bounds.yMax),
