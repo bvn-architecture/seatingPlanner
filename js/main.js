@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function(){
               seatPoints]) =>  {
         console.log("all, as promised", [peopleData, seatPoints]);
 
+        peopleData = peopleData.filter((p)=>p.FirstName[0]=='A');
 
         let svg = d3.select("svg");
         let width = +svg.attr("width");
@@ -41,7 +42,8 @@ document.addEventListener("DOMContentLoaded", function(){
                 FirstName: person.FirstName,
                 LastName: person.LastName,
                 studio: person.Studio,
-                team: person.team
+                team: person.team,
+                placed: person.placed
             }) );
 
         let color = d3.scaleOrdinal()
@@ -137,15 +139,18 @@ document.addEventListener("DOMContentLoaded", function(){
 
         function dragended(d) {
             let draggedNode = d3.select(this);
+            
+            let i = peopleData.findIndex(p => p.FirstName === d.FirstName);
             draggedNode.classed("active", false);
+            peopleData[i].placed = "No";
 
             if (draggedNode.classed("snapped")) {
-                let i = peopleData.findIndex(p => p.FirstName === d.FirstName);
                 peopleData[i].x = d.x;
                 peopleData[i].y = d.y;
+                peopleData[i].placed = "Yes";
                 console.log(peopleData, d);
                 updateTable(peopleData);
-            }
+            } 
         }
 
 
@@ -176,16 +181,15 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
         /*TABLE*/
-        
-        
         let sortAscending = true;
         let table = d3.select('#page-wrap').append('table');
         let titles = d3.keys(peopleData[0]);
+        console.log(titles);
         let headers = table.append('thead').append('tr')
                         .selectAll('th')
                         .data(titles).enter()
                         .append('th')
-                        .text( (d) =>  d)
+                        .text( (d) => d)
                         .on('click', function (d) {
                             headers.attr('class', 'header');
                             
@@ -226,12 +230,16 @@ document.addEventListener("DOMContentLoaded", function(){
         };
 
 
-    function rowClicked(e) {
-        console.log(e);
+        function rowClicked(e) {
+            console.log(e);
             let thisPerson = peopleData.filter((p)=>p.FirstName==e.FirstName && p.LastName==e.LastName);
-            console.log(thisPerson[0]);
-    }
-});
+            // console.log(thisPerson[0].node).classed("focused", true);
+            d3.select("g[data-name='"+thisPerson.selectorName+"']").classed("focused", true);
+
+            let i = peopleData.findIndex((p) => p.FirstName==e.FirstName && p.LastName==e.LastName);
+            peopleData[i].placed = "No";
+        }
+    });
 
 });
 
@@ -245,8 +253,7 @@ function getPointCollectionBounds(snapPoints) {
     return {xMax, yMax, xMin, yMin};
 }
 
-function randBetween(min,max) // min and max included
-{
+function randBetween(min,max) { // min and max included
     return Math.floor(Math.random()*(max-min+1)+min);
 }
 
