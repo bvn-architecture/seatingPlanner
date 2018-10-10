@@ -43,7 +43,8 @@ document.addEventListener("DOMContentLoaded", function(){
                 LastName: person.LastName,
                 studio: person.Studio,
                 team: person.team,
-                placed: person.placed
+                placed: person.placed,
+                highlighted: false
             }) );
 
         let color = d3.scaleOrdinal()
@@ -213,6 +214,11 @@ document.addEventListener("DOMContentLoaded", function(){
 
             let i = peopleData.findIndex((p) => p.FirstName==e.FirstName && p.LastName==e.LastName);
             peopleData[i].placed = "No";
+            peopleData[i].highlighted = true;
+            drawPeople();
+            // peopleData[i].highlighted = false;
+        }
+    
 
         function drawPeople() {
             let people = peopleLayer.selectAll("g.person")
@@ -244,8 +250,9 @@ document.addEventListener("DOMContentLoaded", function(){
                 .classed("person-label", true);
         }
     });
-
 });
+
+
 
 function getPointCollectionBounds(snapPoints) {
     let xVals = snapPoints.map(a => a.x);

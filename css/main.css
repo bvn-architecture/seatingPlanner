@@ -119,6 +119,10 @@ circle.person-dot {
     stroke: green;
     stroke-width: 40px;
 }
+.focused .person-handle {
+    fill: orange;
+    opacity: 1;
+}
 .snapped .person-dot {
     opacity: 0.2;
 }
