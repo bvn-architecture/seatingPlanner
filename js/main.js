@@ -244,3 +244,10 @@ function randBetween(min,max) // min and max included
     return Math.floor(Math.random()*(max-min+1)+min);
 }
 
+function getCoord(inputCoord, boundsMin, boundsMax) {
+    if (inputCoord == 0) {
+        return Math.round(randBetween(boundsMin, boundsMax));
+    } else {
+        return inputCoord;
+    }
+}
