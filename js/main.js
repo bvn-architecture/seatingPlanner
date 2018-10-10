@@ -220,11 +220,13 @@ document.addEventListener("DOMContentLoaded", function(){
         };
 
 
-    });
-
     function rowClicked(e) {
         console.log(e);
+            let thisPerson = peopleData.filter((p)=>p.FirstName==e.FirstName && p.LastName==e.LastName);
+            console.log(thisPerson[0]);
     }
+});
+
 });
 
 function getPointCollectionBounds(snapPoints) {
