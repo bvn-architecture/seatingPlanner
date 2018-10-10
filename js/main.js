@@ -15,10 +15,6 @@ document.addEventListener("DOMContentLoaded", function(){
         let transform = d3.zoomIdentity;
         let radius = 700;
 
-        let analyticsLayer  = svg.append('g').attr('class', "analytics");
-        let backgroundLayer = svg.append('g').attr('class', "background");
-        let peopleLayer     = svg.append('g').attr('class', "people");
-
         let snapPoints = seatPoints.map((s) => {
             return {
                 x: Math.round(s.x),
@@ -52,6 +48,10 @@ document.addEventListener("DOMContentLoaded", function(){
 
         let g = svg.append("g")
             .attr("transform", "translate(1120,38) scale(0.0165)"); // TODO: make this dynamic
+
+        let analyticsLayer  = g.append('g').attr('class', "analytics");
+        let backgroundLayer = g.append('g').attr('class', "background");
+        let peopleLayer     = g.append('g').attr('class', "people");
 
         drawPeople();
             
