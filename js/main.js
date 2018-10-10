@@ -49,6 +49,7 @@ document.addEventListener("DOMContentLoaded", function(){
             .data(peopleData.filter(p => p.studio == 'Sydney'))
             .enter().append("g")
             .classed("person", true)
+            .attr('data-name', p => p.selectorName)
             .call(d3.drag()
                 .on("start", dragstarted)
                 .on("drag", dragged)
