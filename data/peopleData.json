@@ -5,9 +5,8 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
-		"team": "kabaddi",
-		"": ""
+		"placed": "no",
+		"team": "kabaddi"
 	},
 	{
 		"FirstName": "Abbie",
@@ -15,9 +14,8 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
-		"team": "cricket",
-		"": ""
+		"placed": "no",
+		"team": "cricket"
 	},
 	{
 		"FirstName": "Adam",
@@ -25,9 +23,8 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
-		"team": "badminton",
-		"": ""
+		"placed": "no",
+		"team": "badminton"
 	},
 	{
 		"FirstName": "Adlia",
@@ -35,9 +32,8 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
-		"team": "kabaddi",
-		"": ""
+		"placed": "no",
+		"team": "kabaddi"
 	},
 	{
 		"FirstName": "Adrian",
@@ -45,9 +41,8 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
-		"team": "squash",
-		"": ""
+		"placed": "no",
+		"team": "squash"
 	},
 	{
 		"FirstName": "Aiden",
@@ -55,9 +50,8 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
-		"team": "cricket",
-		"": ""
+		"placed": "no",
+		"team": "cricket"
 	},
 	{
 		"FirstName": "Alan",
@@ -65,9 +59,8 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
-		"team": "badminton",
-		"": ""
+		"placed": "no",
+		"team": "badminton"
 	},
 	{
 		"FirstName": "Alessandra",
@@ -75,9 +68,8 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
-		"team": "badminton",
-		"": ""
+		"placed": "no",
+		"team": "badminton"
 	},
 	{
 		"FirstName": "Alex",
@@ -85,9 +77,8 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
-		"team": "squash",
-		"": ""
+		"placed": "no",
+		"team": "squash"
 	},
 	{
 		"FirstName": "Alex",
@@ -95,9 +86,8 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
-		"team": "badminton",
-		"": ""
+		"placed": "no",
+		"team": "badminton"
 	},
 	{
 		"FirstName": "Alex",
@@ -105,9 +95,8 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
-		"team": "squash",
-		"": ""
+		"placed": "no",
+		"team": "squash"
 	},
 	{
 		"FirstName": "Alfred",
@@ -115,9 +104,8 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
-		"team": "squash",
-		"": ""
+		"placed": "no",
+		"team": "squash"
 	},
 	{
 		"FirstName": "Ali",
@@ -125,9 +113,8 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
-		"team": "kabaddi",
-		"": ""
+		"placed": "no",
+		"team": "kabaddi"
 	},
 	{
 		"FirstName": "Alice",
@@ -135,9 +122,8 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
-		"team": "badminton",
-		"": ""
+		"placed": "no",
+		"team": "badminton"
 	},
 	{
 		"FirstName": "Amanda",
@@ -145,9 +131,8 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
-		"team": "kabaddi",
-		"": ""
+		"placed": "no",
+		"team": "kabaddi"
 	},
 	{
 		"FirstName": "Amanda",
@@ -155,7 +140,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -164,7 +149,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -173,7 +158,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -182,7 +167,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -191,7 +176,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -200,7 +185,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -209,7 +194,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -218,7 +203,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -227,7 +212,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -236,7 +221,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -245,7 +230,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -254,7 +239,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -263,7 +248,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -272,7 +257,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -281,7 +266,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -290,7 +275,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -299,7 +284,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -308,7 +293,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -317,7 +302,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -326,7 +311,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -335,7 +320,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -344,7 +329,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -353,7 +338,7 @@
 		"Studio": "New York",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -362,7 +347,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -371,7 +356,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -380,7 +365,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -389,7 +374,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -398,7 +383,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -407,7 +392,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -416,7 +401,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -425,7 +410,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -434,7 +419,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -443,7 +428,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -452,7 +437,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -461,7 +446,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -470,7 +455,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -479,7 +464,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -488,7 +473,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -497,7 +482,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -506,7 +491,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -515,7 +500,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -524,7 +509,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -533,7 +518,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -542,7 +527,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -551,7 +536,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -560,7 +545,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -569,7 +554,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -578,7 +563,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -587,7 +572,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -596,7 +581,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -605,7 +590,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -614,7 +599,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -623,7 +608,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -632,7 +617,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -641,7 +626,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -650,7 +635,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -659,7 +644,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -668,7 +653,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -677,7 +662,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -686,7 +671,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -695,7 +680,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -704,7 +689,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -713,7 +698,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -722,7 +707,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -731,7 +716,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -740,7 +725,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -749,7 +734,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -758,7 +743,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -767,7 +752,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -776,7 +761,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -785,7 +770,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -794,7 +779,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -803,7 +788,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -812,7 +797,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -821,7 +806,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -830,7 +815,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -839,7 +824,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -848,7 +833,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -857,7 +842,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -866,7 +851,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -875,7 +860,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -884,7 +869,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -893,7 +878,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -902,7 +887,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -911,7 +896,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -920,7 +905,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -929,7 +914,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -938,7 +923,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -947,7 +932,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -956,7 +941,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -965,7 +950,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -974,7 +959,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -983,7 +968,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -992,7 +977,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1001,7 +986,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1010,7 +995,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1019,7 +1004,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1028,7 +1013,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1037,7 +1022,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1046,7 +1031,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1055,7 +1040,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1064,7 +1049,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1073,7 +1058,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1082,7 +1067,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1091,7 +1076,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1100,7 +1085,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1109,7 +1094,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1118,7 +1103,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1127,7 +1112,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1136,7 +1121,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1145,7 +1130,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1154,7 +1139,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1163,7 +1148,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1172,7 +1157,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1181,7 +1166,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1190,7 +1175,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1199,7 +1184,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1208,7 +1193,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1217,7 +1202,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1226,7 +1211,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1235,7 +1220,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1244,7 +1229,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1253,7 +1238,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1262,7 +1247,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1271,7 +1256,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1280,7 +1265,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1289,7 +1274,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1298,7 +1283,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1307,7 +1292,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1316,7 +1301,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1325,7 +1310,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1334,7 +1319,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1343,7 +1328,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1352,7 +1337,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1361,7 +1346,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1370,7 +1355,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1379,7 +1364,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1388,7 +1373,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1397,7 +1382,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1406,7 +1391,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1415,7 +1400,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1424,7 +1409,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1433,7 +1418,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1442,7 +1427,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1451,7 +1436,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1460,7 +1445,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1469,7 +1454,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1478,7 +1463,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1487,7 +1472,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1496,7 +1481,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1505,7 +1490,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1514,7 +1499,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1523,7 +1508,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1532,7 +1517,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1541,7 +1526,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1550,7 +1535,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1559,7 +1544,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1568,7 +1553,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1577,7 +1562,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1586,7 +1571,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1595,7 +1580,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1604,7 +1589,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1613,7 +1598,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1622,7 +1607,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1631,7 +1616,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1640,7 +1625,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1649,7 +1634,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1658,7 +1643,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1667,7 +1652,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1676,7 +1661,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1685,7 +1670,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1694,7 +1679,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1703,7 +1688,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1712,7 +1697,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1721,7 +1706,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1730,7 +1715,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1739,7 +1724,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1748,7 +1733,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1757,7 +1742,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1766,7 +1751,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1775,7 +1760,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1784,7 +1769,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1793,7 +1778,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1802,7 +1787,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1811,7 +1796,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1820,7 +1805,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1829,7 +1814,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1838,7 +1823,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1847,7 +1832,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1856,7 +1841,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1865,7 +1850,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1874,7 +1859,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1883,7 +1868,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1892,7 +1877,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1901,7 +1886,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1910,7 +1895,7 @@
 		"Studio": "New York",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1919,7 +1904,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -1928,7 +1913,7 @@
 		"Studio": "",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1937,7 +1922,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1946,7 +1931,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -1955,7 +1940,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1964,7 +1949,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1973,7 +1958,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -1982,7 +1967,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -1991,7 +1976,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -2000,7 +1985,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -2009,7 +1994,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -2018,7 +2003,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -2027,7 +2012,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -2036,7 +2021,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -2045,7 +2030,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -2054,7 +2039,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -2063,7 +2048,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -2072,7 +2057,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -2081,7 +2066,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -2090,7 +2075,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -2099,7 +2084,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -2108,7 +2093,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -2117,7 +2102,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -2126,7 +2111,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -2135,7 +2120,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -2144,7 +2129,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -2153,7 +2138,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -2162,7 +2147,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -2171,7 +2156,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -2180,7 +2165,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -2189,7 +2174,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -2198,7 +2183,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -2207,7 +2192,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -2216,7 +2201,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -2225,7 +2210,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -2234,7 +2219,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -2243,7 +2228,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -2252,7 +2237,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -2261,7 +2246,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -2270,7 +2255,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -2279,7 +2264,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -2288,7 +2273,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -2297,7 +2282,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -2306,7 +2291,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -2315,7 +2300,7 @@
 		"Studio": "New York",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -2324,7 +2309,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -2333,7 +2318,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -2342,7 +2327,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -2351,7 +2336,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -2360,7 +2345,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -2369,7 +2354,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -2378,7 +2363,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -2387,7 +2372,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -2396,7 +2381,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -2405,7 +2390,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -2414,7 +2399,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -2423,7 +2408,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -2432,7 +2417,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -2441,7 +2426,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -2450,7 +2435,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -2459,7 +2444,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -2468,7 +2453,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "squash"
 	},
 	{
@@ -2477,7 +2462,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "cricket"
 	},
 	{
@@ -2486,7 +2471,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	},
 	{
@@ -2495,7 +2480,7 @@
 		"Studio": "Sydney",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "badminton"
 	},
 	{
@@ -2504,7 +2489,7 @@
 		"Studio": "Brisbane",
 		"x": "0",
 		"y": "0",
-		"placed": "0",
+		"placed": "no",
 		"team": "kabaddi"
 	}
 ]
