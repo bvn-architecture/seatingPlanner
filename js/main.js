@@ -3,9 +3,9 @@ document.addEventListener("DOMContentLoaded", function(){
         d3.json("data/peopleData.json"),
         d3.json("data/tempPoints.json")
       ])
-      .then(([people_json_data, 
+      .then(([peopleData, 
               seatPoints]) =>  {
-        console.log("all, as promised", [people_json_data, seatPoints]);
+        console.log("all, as promised", [peopleData, seatPoints]);
 
 
         let svg = d3.select("svg");
@@ -28,10 +28,11 @@ document.addEventListener("DOMContentLoaded", function(){
         console.log(bounds);
         svg.attr("viewBox", `${bounds.xMin} ${bounds.yMin} ${bounds.xMax-bounds.xMin} ${bounds.yMax-bounds.yMin}`);
         
-        let peopleData = people_json_data.map((person) => ({
-                x: Math.round(randBetween(bounds.xMin, bounds.xMax)),
-                y: Math.round(randBetween(bounds.yMin, bounds.yMax)),
+        peopleData = peopleData.map((person) => ({
+                x: getCoord(person.x, bounds.xMin, bounds.xMax),
+                y: getCoord(person.y, bounds.yMin, bounds.yMax),
                 displayName: person.FirstName + " " + person.LastName,
+                selectorName: person.FirstName + person.LastName.replace(/\s/gi, '-'),
                 FirstName: person.FirstName,
                 LastName: person.LastName,
                 studio: person.Studio,
@@ -133,17 +134,17 @@ document.addEventListener("DOMContentLoaded", function(){
             draggedNode.classed("active", false);
 
             if (draggedNode.classed("snapped")) {
-                let i = people_json_data.findIndex(p => p.FirstName === d.FirstName);
-                people_json_data[i].x = d.x;
-                people_json_data[i].y = d.y;
-                console.log(people_json_data, d);
-                updateTable(people_json_data);
+                let i = peopleData.findIndex(p => p.FirstName === d.FirstName);
+                peopleData[i].x = d.x;
+                peopleData[i].y = d.y;
+                console.log(peopleData, d);
+                updateTable(peopleData);
             }
         }
 
 
         /*TEAM HULLS*/
-        let teams = Array.from(new Set(people_json_data.map(p=>p.team)));
+        let teams = Array.from(new Set(peopleData.map(p=>p.team)));
         // console.log(teams);
         if (true) {
             let hulls = teams.map((t, i) => {
@@ -173,7 +174,7 @@ document.addEventListener("DOMContentLoaded", function(){
         
         let sortAscending = true;
         let table = d3.select('#page-wrap').append('table');
-        let titles = d3.keys(people_json_data[0]);
+        let titles = d3.keys(peopleData[0]);
         let headers = table.append('thead').append('tr')
                         .selectAll('th')
                         .data(titles).enter()
@@ -194,7 +195,7 @@ document.addEventListener("DOMContentLoaded", function(){
                             
                         });
 
-        updateTable(people_json_data);
+        updateTable(peopleData);
 
         function updateTable(newdata) {
             // TODO: do this: http://bl.ocks.org/LeeMendelowitz/11383724
