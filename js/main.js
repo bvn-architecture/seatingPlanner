@@ -53,6 +53,8 @@ document.addEventListener("DOMContentLoaded", function(){
         let backgroundLayer = g.append('g').attr('class', "background");
         let peopleLayer     = g.append('g').attr('class', "people");
 
+        let people = peopleLayer.selectAll("g.person")
+            .data(peopleData);
         drawPeople();
             
 
@@ -221,9 +223,7 @@ document.addEventListener("DOMContentLoaded", function(){
     
 
         function drawPeople() {
-            let people = peopleLayer.selectAll("g.person")
-                .data(peopleData.filter(p => p.studio == 'Sydney'))
-                .enter().append("g")
+            people.enter().append("g")
                 .classed("person", true)
                 .classed("focused", p => p.highlighted)
                 .attr('data-name', p => p.selectorName)
@@ -248,6 +248,8 @@ document.addEventListener("DOMContentLoaded", function(){
                 .attr("text-anchor", "middle")
                 .text((d) => d.displayName)
                 .classed("person-label", true);
+            
+            people.exit().remove();
         }
     });
 });
