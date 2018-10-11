@@ -65,11 +65,7 @@ document.addEventListener("DOMContentLoaded", function(){
             .attr("cx", (d) => d.x)
             .attr("cy", (d) => d.y)
             .attr("r", radius/4)
-            .style("fill", (d, i) => color(i))
-            .call(d3.drag()
-                .on("start", dragstarted)
-                .on("drag", dragged)
-                .on("end", dragended));
+            .style("fill", (d, i) => color(i));
 
         
         svg.call(d3.zoom()
