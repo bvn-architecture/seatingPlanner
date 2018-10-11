@@ -159,57 +159,79 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
         /*TABLE*/
-        let sortAscending = true;
-        let table = d3.select('#page-wrap').append('table');
-        let titles = d3.keys(peopleData[0]);
-        console.log(titles);
-        let headers = table.append('thead').append('tr')
-                        .selectAll('th')
-                        .data(titles).enter()
-                        .append('th')
-                        .text( (d) => d)
-                            .on('click', (d) => {
-                            headers.attr('class', 'header');
-                            if (sortAscending) {
-                                rows.sort((a, b) =>  b[d] < a[d]);
-                                sortAscending = false;
-                                this.className = 'aes';
-                            } else {
-                                rows.sort((a, b) => b[d] > a[d]);
-                                sortAscending = true;
-                                this.className = 'des';
-                            }
-                            
-                        });
+
+        var sortAscending = true;
+        var table = d3.select("#page-wrap").append("table");
+        var titles = d3.keys(peopleData[0]);
+        var headers = table
+            .append("thead")
+            .append("tr")
+            .selectAll("th")
+            .data(titles);
+        var rows = table
+            .append("tbody")
+            .selectAll("tr")
+            .data(peopleData);
 
         updateTable();
-
         function updateTable() {
-            // TODO: do this: http://bl.ocks.org/LeeMendelowitz/11383724
-            //       and not is horrible hack
-            d3.selectAll('tbody').remove();
+        
+            headers
+                .enter()
+                .append("th")
+                .text(d => d)
+                .on("click", doSort);
+            headers.exit().remove();
+            
+            rows
+                .enter()
+                .append("tr")
+                .attr("data-row", d => d.FirstName)
+                .attr("data-who", d=>d.FirstName)
+                .on('click', addPersonToMap)
+                // .on('mousedown', highlightPerson)
+                // .on('mouseup', unhighlightPerson)
+                .on('mouseover', highlightPerson)
+                .on('mouseout', unhighlightPerson)
+                .on("contextmenu", removePersonFromMap)
+                .selectAll("td")
+                .data((d) => {
+                return titles.map((k) =>({ value: d[k], colName: k }) );
+                })
+                .enter()
+                .append("td")
+                .attr("data-th", d => d.colName)
+                .text(d => d.value);
+            rows.exit().remove();
+            // made, now update
+            
+            headers
+                .text(d => d)
+                .on("click", doSort);
+            
+            rows
+                .selectAll("td")
+                .attr("data-th", d => d.name)
+                .text(d => d.value);
+
             
             
-            let rows = table.append('tbody').selectAll('tr')
-                        .data(peopleData).enter()
-                        .append('tr')
-                        .attr("data-who", d=>d.FirstName)
-                        .on('click', addPersonToMap)
-                        // .on('mousedown', highlightPerson)
-                        // .on('mouseup', unhighlightPerson)
-                        .on('mouseover', highlightPerson)
-                        .on('mouseout', unhighlightPerson)
-                        .on("contextmenu", removePersonFromMap);
-            rows.selectAll('td')
-            .data(function (d) {
-                return titles.map(function (k) {
-                    return { 'value': d[k], 'name': k};
-                });
-            }).enter()
-            .append('td')
-            .attr('data-th', (d) => d.name)
-            .text((d) =>  d.value);
-        };
+            
+            function doSort(d) {
+                headers.attr("class", "header"); //reset header to no arrow
+
+                if (sortAscending) {
+                rows.sort((a, b) => b[d] < a[d]);
+                sortAscending = false;
+                this.className = "aes"; // adds arrow
+                } else {
+                rows.sort((a, b) => b[d] > a[d]);
+                sortAscending = true;
+                this.className = "des"; // adds arrow
+                }
+            }
+        
+        }
 
 
         function highlightPerson(e) {
