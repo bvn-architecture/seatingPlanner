@@ -192,7 +192,8 @@ document.addEventListener("DOMContentLoaded", function(){
                         .data(newdata).enter()
                         .append('tr')
                         .attr("data-who", d=>d.FirstName)
-                        .on('click', rowClicked);
+                        .on('mousedown', row_mousedown)
+                        .on('mouseup', row_mouseup);
             rows.selectAll('td')
             .data(function (d) {
                 return titles.map(function (k) {
@@ -205,17 +206,11 @@ document.addEventListener("DOMContentLoaded", function(){
         };
 
 
-        function rowClicked(e) {
-            console.log(e);
-            let thisPerson = peopleData.filter((p)=>p.FirstName==e.FirstName && p.LastName==e.LastName);
-            // console.log(thisPerson[0].node).classed("focused", true);
-            d3.select("g[data-name='"+thisPerson.selectorName+"']").classed("focused", true);
-
-            let i = peopleData.findIndex((p) => p.FirstName==e.FirstName && p.LastName==e.LastName);
-            peopleData[i].placed = "No";
-            peopleData[i].highlighted = true;
-            drawPeople();
-            // peopleData[i].highlighted = false;
+        function row_mousedown(e) {
+            d3.select(`g[data-name='${e.selectorName}']`).classed("focused", true);
+        }
+        function row_mouseup(e) {
+            d3.select(`g[data-name='${e.selectorName}']`).classed("focused", false);
         }
     
 
