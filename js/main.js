@@ -69,21 +69,19 @@ document.addEventListener("DOMContentLoaded", function(){
 
         
         svg.call(d3.zoom()
-            .scaleExtent([0.0165, 2])
+            .scaleExtent([0.0165, 10])
             .on("zoom", zoomed));
         function zoomed() {
             g.attr("transform", d3.event.transform);
         }
 
-        function dragstarted(d) {
-            d3.select(this).raise().classed("active", true);
+        function distance(a, b) {
+            return Math.sqrt( Math.pow(( a.x - b.x ), 2) + 
+                              Math.pow(( a.y - b.y ), 2) );
         }
 
-        function distance(a, b) {
-            return Math.sqrt( 
-                Math.pow(( a.x - b.x ), 2) + 
-                Math.pow(( a.y - b.y ), 2)
-                );
+        function dragstarted(d) {
+            d3.select(this).raise().classed("active", true);
         }
 
         function dragged(d) {
@@ -109,22 +107,22 @@ document.addEventListener("DOMContentLoaded", function(){
                 d3.select(me).select("circle.person-handle").attr("cx", d.x = pt.x).attr("cy", d.y = pt.y);
             }
 
-            redraw();
+            redrawHulls();
         }
 
         function dragended(d) {
             let draggedNode = d3.select(this);
             
             let i = peopleData.findIndex(p => p.FirstName === d.FirstName);
+            peopleData[i].placed = false;
             draggedNode.classed("active", false);
-            peopleData[i].placed = "No";
+            updateTable(peopleData);
 
             if (draggedNode.classed("snapped")) {
                 peopleData[i].x = d.x;
                 peopleData[i].y = d.y;
-                peopleData[i].placed = "Yes";
+                peopleData[i].placed = true;
                 console.log(peopleData, d);
-                updateTable(peopleData);
             } 
         }
 
@@ -135,17 +133,22 @@ document.addEventListener("DOMContentLoaded", function(){
         if (true) {
             let hulls = teams.map((t, i) => {
                 return analyticsLayer.append("path")
-                    .attr("class", `hull ${t} cowboys`)
+                    .attr("class", `hull ${t} `)
                     .attr('stroke-width', radius*2)
                     .style("fill", color(i))
                     .style("stroke", color(i));
             });
-            redraw();
+            redrawHulls();
 
-            function redraw() {
+            function redrawHulls() {
                 teams.map((t, i) => {
-                    let teamPeople = peopleData.filter((p) => p.team == t);
-                    let vertices = teamPeople.map(a => [a.x, a.y]);
+                    let vertices;
+                    let teamPeople = peopleData.filter((p) => p.team == t && p.onMap); 
+                    if (teamPeople.length >= 3) { //must have 3 people to make a meaningful hull
+                        vertices = teamPeople.map(a => [a.x, a.y]);
+                    } else {
+                        vertices = [[0,0], [0,1], [1,1]];
+                    }
                     hulls[i].datum(d3.polygonHull(vertices))
                         .attr("d", (d) => "M" + d.join("L") + "Z");
                 });
@@ -268,7 +271,7 @@ document.addEventListener("DOMContentLoaded", function(){
                 .text((d) => d.displayName);
 
     
-            
+           
         }
     });
 });
