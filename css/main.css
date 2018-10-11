@@ -106,6 +106,10 @@ textarea {
 svg.bubbles {
     vertical-align: top;
 }
+g.offMap {
+    visibility: hidden;
+}
+
 circle.person-handle {
     fill: hsla(208, 100%, 97%, 0.1);
 }
