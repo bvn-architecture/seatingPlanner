@@ -168,9 +168,8 @@ document.addEventListener("DOMContentLoaded", function(){
                         .data(titles).enter()
                         .append('th')
                         .text( (d) => d)
-                        .on('click', function (d) {
+                            .on('click', (d) => {
                             headers.attr('class', 'header');
-                            
                             if (sortAscending) {
                                 rows.sort((a, b) =>  b[d] < a[d]);
                                 sortAscending = false;
