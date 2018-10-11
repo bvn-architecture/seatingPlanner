@@ -220,33 +220,60 @@ document.addEventListener("DOMContentLoaded", function(){
     
 
         function drawPeople() {
+            people.exit().remove();
+
             people.enter().append("g")
                 .classed("person", true)
                 .classed("focused", p => p.highlighted)
+                .classed("offMap", p => !p.onMap)
                 .attr('data-name', p => p.selectorName)
                 .call(d3.drag()
                     .on("start", dragstarted)
                     .on("drag", dragged)
-                    .on("end", dragended));
-            people.append("circle")
+                    .on("end", dragended))
+                .append("circle")
+                .classed("person-handle", true)
                 .attr("cx", (d) => d.x)
                 .attr("cy", (d) => d.y)
                 .attr("r", radius * 2)
-                .classed("person-handle", true);
-            people.append("circle")
+              .select(function() { return this.parentNode; })
+                .append("circle")
+                .classed("person-dot", true)
                 .attr("cx", (d) => d.x)
                 .attr("cy", (d) => d.y)
                 .attr("r", radius)
                 .style("fill", (d, i) => color(i))
-                .classed("person-dot", true);
-            people.append("text")
+              .select(function() { return this.parentNode; })
+                .append("text")
+                .classed("person-label", true)
                 .attr('x', (d) => d.x)
                 .attr('y', (d) => d.y)
                 .attr("text-anchor", "middle")
-                .text((d) => d.displayName)
-                .classed("person-label", true);
+                .text((d) => d.displayName);
             
-            people.exit().remove();
+
+            people.select(".person.handle")
+                .classed("person-handle", true)
+                .attr("cx", (d) => d.x)
+                .attr("cy", (d) => d.y)
+                .attr("r", radius * 2);
+
+            people.select(".person-dot")
+                .classed("person-dot", true)
+                .attr("cx", (d) => d.x)
+                .attr("cy", (d) => d.y)
+                .attr("r", radius)
+                .style("fill", (d, i) => color(i));
+            
+            people.select(".person-label")
+                .classed("person-label", true)
+                .attr('x', (d) => d.x)
+                .attr('y', (d) => d.y)
+                .attr("text-anchor", "middle")
+                .text((d) => d.displayName);
+
+    
+            
         }
     });
 });
