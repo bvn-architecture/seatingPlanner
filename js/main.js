@@ -40,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function(){
                 studio: person.Studio,
                 team: person.team,
                 placed: person.placed,
+                onMap: person.onMap,
                 highlighted: false
             }) );
 
