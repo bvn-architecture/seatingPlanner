@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", function(){
             let i = peopleData.findIndex(p => p.FirstName === d.FirstName);
             peopleData[i].placed = false;
             draggedNode.classed("active", false);
-            updateTable(peopleData);
+            updateTable();
 
             if (draggedNode.classed("snapped")) {
                 peopleData[i].x = d.x;
@@ -183,20 +183,24 @@ document.addEventListener("DOMContentLoaded", function(){
                             
                         });
 
-        updateTable(peopleData);
+        updateTable();
 
-        function updateTable(newdata) {
+        function updateTable() {
             // TODO: do this: http://bl.ocks.org/LeeMendelowitz/11383724
             //       and not is horrible hack
             d3.selectAll('tbody').remove();
             
             
             let rows = table.append('tbody').selectAll('tr')
-                        .data(newdata).enter()
+                        .data(peopleData).enter()
                         .append('tr')
                         .attr("data-who", d=>d.FirstName)
-                        .on('mousedown', row_mousedown)
-                        .on('mouseup', row_mouseup);
+                        .on('click', addPersonToMap)
+                        // .on('mousedown', highlightPerson)
+                        // .on('mouseup', unhighlightPerson)
+                        .on('mouseover', highlightPerson)
+                        .on('mouseout', unhighlightPerson)
+                        .on("contextmenu", removePersonFromMap);
             rows.selectAll('td')
             .data(function (d) {
                 return titles.map(function (k) {
@@ -209,11 +213,25 @@ document.addEventListener("DOMContentLoaded", function(){
         };
 
 
-        function row_mousedown(e) {
+        function highlightPerson(e) {
             d3.select(`g[data-name='${e.selectorName}']`).classed("focused", true);
         }
-        function row_mouseup(e) {
+        function unhighlightPerson(e) {
             d3.select(`g[data-name='${e.selectorName}']`).classed("focused", false);
+        }
+        function addPersonToMap(d, i) {
+            peopleData[i].onMap = true;
+            drawPeople();
+            updateTable();
+            redrawHulls();
+        }
+        function removePersonFromMap(d, i) {
+            d3.event.preventDefault();
+           // react on right-clicking
+            peopleData[i].onMap = false;
+            drawPeople();
+            updateTable();
+            redrawHulls();
         }
     
 
