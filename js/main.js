@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 document.addEventListener("DOMContentLoaded", function(){
     Promise.all([
         d3.json("data/peopleData.json"),
@@ -24,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function(){
             };
         });
         let bounds = getPointCollectionBounds(snapPoints);
-        console.log(bounds);
+        // console.log(bounds);
         svg.attr("viewBox", `${bounds.xMin} ${bounds.yMin} ${bounds.xMax-bounds.xMin} ${bounds.yMax-bounds.yMin}`);
         
         let p1 = {x:-16220, y: 16770};
