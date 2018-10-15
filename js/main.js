@@ -67,15 +67,15 @@ document.addEventListener("DOMContentLoaded", function(){
                 return "M" + xyPairs.join("L") + "Z";
             })
             .classed("layoutable-area", true)
-            .classed("boundary", true)
-            ;
+            .classed("boundary", true);
 
         let people = peopleLayer.selectAll("g.person")
             .data(peopleData);
         drawPeople();
             
 
-        backgroundLayer.selectAll(".desk")
+        backgroundLayer
+            .selectAll(".desk")
             .data(snapPoints)
             .enter().append("circle")
             .attr("cx", (d) => d.x)
