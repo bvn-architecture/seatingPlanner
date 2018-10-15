@@ -177,7 +177,9 @@ th.aes:after {
 
 
 
-
+.boundary {
+    fill: hsla(240, 100%, 50%, 0.1);
+}
 
 
 

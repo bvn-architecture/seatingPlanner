@@ -1,11 +1,13 @@
 document.addEventListener("DOMContentLoaded", function(){
     Promise.all([
         d3.json("data/peopleData.json"),
-        d3.json("data/tempPoints.json")
+        d3.json("data/tempPoints.json"),
+        d3.json("data/boundary_points.json")
       ])
       .then(([peopleData, 
-              seatPoints]) =>  {
-        console.log("all, as promised", [peopleData, seatPoints]);
+              seatPoints,
+              boundaries]) =>  {
+        // console.log("all, as promised", [peopleData, seatPoints, boundaries]);
 
         peopleData = peopleData.filter((p)=>p.FirstName[0]=='A');
 
@@ -53,6 +55,19 @@ document.addEventListener("DOMContentLoaded", function(){
         let analyticsLayer  = g.append('g').attr('class', "analytics");
         let backgroundLayer = g.append('g').attr('class', "background");
         let peopleLayer     = g.append('g').attr('class', "people");
+
+        backgroundLayer
+            .selectAll("path.boundary")
+            .data(boundaries.loopVertices)
+            .enter()
+            .append("path")
+            .attr("d", (d) => {
+                let xyPairs = d.map((c) => `${c.X},${c.Y}`);
+                return "M" + xyPairs.join("L") + "Z";
+            })
+            .classed("layoutable-area", true)
+            .classed("boundary", true)
+            ;
 
         let people = peopleLayer.selectAll("g.person")
             .data(peopleData);
