@@ -110,17 +110,19 @@ document.addEventListener("DOMContentLoaded", function(){
             let snapRadius = radius * 2;
             if (close_one.distance < snapRadius) {
                 drag_node(this, close_one.snapPt);
+                d.x = close_one.snapPt.x;
+                d.y = close_one.snapPt.y;
                 d3.select(this).classed("snapped", true);
                 console.log("Snapped to", close_one);
             } else {
                 drag_node(this, d3.event);
+                d.x = d3.event.x;
+                d.y = d3.event.y;
                 d3.select(this).classed("snapped", false);
             }
 
             function drag_node(me, pt) {
-                d3.select(me).select("text.person-label").attr("x", d.x = pt.x).attr("y", d.y = pt.y);
-                d3.select(me).select("circle.person-dot").attr("cx", d.x = pt.x).attr("cy", d.y = pt.y);
-                d3.select(me).select("circle.person-handle").attr("cx", d.x = pt.x).attr("cy", d.y = pt.y);
+                d3.select(me).attr('transform', `translate(${pt.x}, ${pt.y})`);                
             }
 
             redrawHulls();
@@ -276,6 +278,7 @@ document.addEventListener("DOMContentLoaded", function(){
             people.exit().remove();
 
             people.enter().append("g")
+                .attr('transform', d => `translate(${d.x}, ${d.y})`)
                 .classed("person", true)
                 .classed("focused", p => p.highlighted)
                 .classed("offMap", p => !p.onMap)
@@ -286,42 +289,30 @@ document.addEventListener("DOMContentLoaded", function(){
                     .on("end", dragended))
                 .append("circle")
                 .classed("person-handle", true)
-                .attr("cx", (d) => d.x)
-                .attr("cy", (d) => d.y)
                 .attr("r", radius * 2)
               .select(function() { return this.parentNode; })
                 .append("circle")
                 .classed("person-dot", true)
-                .attr("cx", (d) => d.x)
-                .attr("cy", (d) => d.y)
                 .attr("r", radius)
                 .style("fill", (d, i) => color(i))
               .select(function() { return this.parentNode; })
                 .append("text")
                 .classed("person-label", true)
-                .attr('x', (d) => d.x)
-                .attr('y', (d) => d.y)
                 .attr("text-anchor", "middle")
                 .text((d) => d.displayName);
             
 
             people.select(".person.handle")
                 .classed("person-handle", true)
-                .attr("cx", (d) => d.x)
-                .attr("cy", (d) => d.y)
                 .attr("r", radius * 2);
 
             people.select(".person-dot")
                 .classed("person-dot", true)
-                .attr("cx", (d) => d.x)
-                .attr("cy", (d) => d.y)
                 .attr("r", radius)
                 .style("fill", (d, i) => color(i));
             
             people.select(".person-label")
                 .classed("person-label", true)
-                .attr('x', (d) => d.x)
-                .attr('y', (d) => d.y)
                 .attr("text-anchor", "middle")
                 .text((d) => d.displayName);
 
