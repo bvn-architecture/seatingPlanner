@@ -1,0 +1,129 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Layer-outer</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script>
+    function init() {
+      Tabletop.init( { key: 'https://docs.google.com/spreadsheets/d/1qzD2NHjrXZ2CANvADVFs-NNo_I9FWSXG3-InCvyp1sw/edit?usp=sharing',
+                     callback: addFromData,
+                     simpleSheet: true } )
+  }
+  function addFromData(data, tabletop) { 
+    console.log(data);
+    let qrURL = 'https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=';
+    d3
+      .select("body")
+      .data(data)
+      .enter()
+      .append('div')
+      .classed("sticker", true)
+      .append('img')
+      .attr('src', d=>d.image_url)
+      .classed("portrait", true)
+      .style("object-position", d=>getObjectPosition(d))
+      .select(function() { return this.parentNode; })
+      .append('div')
+      .text(d=>d.description)
+      .classed("description", true)
+      .select(function() { return this.parentNode; })
+      .append("div")
+      .classed("front-face-block", true)
+        .append('div')
+        .classed("name", true)
+        .text(d=>d.HP_universe)
+        .select(function() { return this.parentNode; })
+        .append('img')
+        .attr('src', (d, i)=>qrURL+i)
+        .classed("qr", true)
+      
+
+    function getObjectPosition(potterist) {
+      let x = potterist.xMod || 0;
+      let y = potterist.yMod || 0;
+      return `${x}% ${y}%`;
+    }
+      
+  }
+
+  window.addEventListener('DOMContentLoaded', init)
+    </script>
+    <style>
+      :root {
+        --sticker-height: 34.0mm;
+        --sticker-width:  99.1mm;
+      }
+
+      body, div, div {
+        font-family: Blender, "Blender Book", sans-serif;
+      }
+      .portrait {
+        width: var(--sticker-height);
+        float: left;
+        vertical-align: top;
+        object-fit: cover;
+        height: var(--sticker-height);
+        object-position: 0 0;
+      }
+      .sticker {
+        width: var(--sticker-width);
+        height: var(--sticker-height);
+        display: inline-block;
+        border: 1px solid #0000ff3b;
+        overflow: hidden;
+        border-radius: 3mm;
+        position: relative;
+      }
+      .name {
+        width: 100%;
+        float: right;
+        display: block;
+        text-align: center;
+      }
+      .qr {
+        width: 20mm;
+        height: 20mm;
+        position: absolute;
+        right: 4mm;
+        bottom: 1mm;
+      }
+      .description {
+        font-size: 62%;
+        padding-left: 1.5mm;
+        padding-top: 1.5mm;
+        width: var(--sticker-height);
+        margin-left: var(--sticker-height);
+      }
+      .front-face-block {
+        width: 28mm;
+        float: right;
+        height: var(--sticker-height);
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    </style>
+  
+
+  
+</head>
+
+<body></body>
+
+</html>
