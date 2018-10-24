@@ -25,7 +25,9 @@
                      callback: addFromData,
                      simpleSheet: true } )
   }
+
   function makeQRurl(data, size, ecc, format, qzone) {
+    // http://goqr.me/api/doc/create-qr-code/
     size = size || 300;
     ecc = ecc || "H";
     format = format || "svg";
@@ -39,6 +41,15 @@
     let qrURL = `https://api.qrserver.com/v1/create-qr-code/?${params}`;
     return qrURL;
   }
+
+  function formatNameText(name) {
+    if ((name.match(/\s/g) || []).length == 1) {
+      return name.replace(/\s/g, "<br>"); 
+    } else {
+      return name;
+    }
+  }
+
   function addFromData(data, tabletop) { 
     console.log(data);
     d3
@@ -60,7 +71,7 @@
       .classed("front-face-block", true)
         .append('div')
         .classed("name", true)
-        .text(d=>d.HP_universe)
+        .text(d=>formatNameText(d.HP_universe))
         .select(function() { return this.parentNode; })
         .append('img')
         .attr('src', (d, i) => makeQRurl(`BVN_desk_${i}`) )
@@ -108,13 +119,14 @@
         float: right;
         display: block;
         text-align: center;
+        font-weight: bold;
       }
       .qr {
-        width: 20mm;
-        height: 20mm;
+        width: 21mm;
+        height: 21mm;
         position: absolute;
-        right: 4mm;
-        bottom: 1mm;
+        right: 3.5mm;
+        bottom: 0.5mm;
       }
       .description {
         font-size: 62%;
