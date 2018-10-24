@@ -25,9 +25,22 @@
                      callback: addFromData,
                      simpleSheet: true } )
   }
+  function makeQRurl(data, size, ecc, format, qzone) {
+    size = size || 300;
+    ecc = ecc || "H";
+    format = format || "svg";
+    qzone = qzone || 4;
+    let s = `size=${size}x${size}`;
+    let d = `data=${data}`;
+    let e = `ecc=${ecc}`;
+    let f = `format=${format}`;
+    let q = `qzone=${qzone}`
+    let params = [s, d, e, f].join("&");
+    let qrURL = `https://api.qrserver.com/v1/create-qr-code/?${params}`;
+    return qrURL;
+  }
   function addFromData(data, tabletop) { 
     console.log(data);
-    let qrURL = 'https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=';
     d3
       .select("body")
       .data(data)
@@ -50,7 +63,7 @@
         .text(d=>d.HP_universe)
         .select(function() { return this.parentNode; })
         .append('img')
-        .attr('src', (d, i)=>qrURL+i)
+        .attr('src', (d, i) => makeQRurl(`BVN_desk_${i}`) )
         .classed("qr", true)
       
 
