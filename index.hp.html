@@ -71,7 +71,7 @@
       .classed("front-face-block", true)
         .append('div')
         .classed("name", true)
-        .text(d=>formatNameText(d.HP_universe))
+        .html(d=>formatNameText(d.HP_universe))
         .select(function() { return this.parentNode; })
         .append('img')
         .attr('src', (d, i) => makeQRurl(`BVN_desk_${i}`) )
