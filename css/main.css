@@ -10,6 +10,8 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+@import url('https://fonts.googleapis.com/css?family=Kumar+One+Outline|Noto+Serif');
+
 html {
     color: #222;
     font-size: 1em;
@@ -182,8 +184,42 @@ th.aes:after {
 }
 
 
+body.docs {
+    margin: auto;
+    width: 50vw;
+    min-width: 30em;
+}
+body.docs, body.docs li {
+    font-size: 21px;
+    line-height: 1.5;
+}
+body.docs h1,
+body.docs h2,
+body.docs h3,
+body.docs h4 {
+    font-family: 'Kumar One Outline', cursive;
+}
 
+body.docs h1 { font-size: 6rem; }
+body.docs h2 { font-size: 3rem; }
+body.docs h3 { font-size: 2rem; }
+body.docs h4 { font-size: 1rem; }
 
+body.docs p, body.docs li  {
+    font-family: 'Noto Serif', serif;
+}
+body.docs li {
+    padding-right: 10em;
+    margin-block-end: 1em;
+}
+
+body.docs img.side {
+    float: right;
+}
+body.docs li img {
+    display: block;
+    max-width: 25vw;
+}
 
 
 

@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Layer-outer</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body class="docs">
+    <h1>Seating Plan Designer Spec</h1>
+
+    <p>The combination of this page and the <a href="index.html">semi-working prototype</a> is a specification for the seating plan designer.</p>
+    <p>We're looking for someone to help us get this project underway. Nobody on our team is a whizz with D3, we've made some progress, but we need your help to progress it. The following text tries to give some context to this idea.</p>
+    
+    <h2>Our Motivation</h2>
+    <img class="side" src="img/map@2x.png">
+    <p>We have an office of &cong;200 people. deciding where they sit is quite a challenge in itself. Making a seating plan drawing is currently done in a tedious and manual way, without any feedback.</p>
+    <p>We'd like to make that process easier, and to provide some automatic, visual feedback on how the arrangement performs. This will be very simple to begin with, but will get more involved after this phase of the project.</p>
+    <p>As with all things, this is already slightly out of date, as we have a new system that allows people to move their own desks at their own will. This means that there will be a later system that tries to take this into acount, but for now we'd like to solve this version of the problem.</p>
+
+
+    <h2>Some Definitions</h2>
+
+    <p>A <em>seating plan</em> is a document that takes a set fixed seat positions (desk/seat combinations) and assigns set of people to them. A person may have 1 or 0 desks. A desk can have any number of people.</p>
+
+    <img class="side" src="img/person@2x.png">
+    <p>A <em>person</em> is someone who works in the office. They are probably employed by us, but could be a student, a guest seconded from another company, or be renting a desk.</p>
+    
+    <img class="side" src="img/desk@2x.png">
+    <p>A <em>desk</em> is the combination of a table, a chair and a computer. There are desks that are fixed around the perimeter, there are mobile desks (although we can consider these fixed for this version of the software). There are seats that aren't desks, for instance in the kitchen and reception areas.</p>
+
+    
+    <h2>Users of this system</h2>
+    <p>Who will use the software and what job are they hiring it to do?</p>
+    <h3>Specialist users</h3>
+    <p>Initally, specialist users who plan layouts for offices. These are expert users who will be willing to learn a system. They want to be able to make small, or sweeping, changes to the alocation of people to desks. They will be willing to invest some time to learn more complex techniques and interactions if it leads to an overall speed up.</p>
+    <h3>General users</h3>
+    <p>In the future we'll make it available to all users so that they can explore the implications of a move that they might make themselves. These are casual users and are unlikely to take the effort to learn anything beyond the basic interactions.</p>
+    
+    <h2>Components</h2>
+    <p>The following diagrams are my way of communicating intent, not a description of how the finished system should look. The same applies to the semi-working prototype.</p>
+    <p>There needs to be a zoomable map that people can be placed on. This means that we'll need to be able to drag people around and snap people to seats. There also needs to be a parallel representation, presumably as a table. This needs to have the people who need to be seated, and also their metadata. This should be sortable by any column.</p>
+    
+    <h2>Person &rarr; Desk Interactions</h2>
+    <p>This list is not exhaustive, it's jsut what I have at the moment.</p>
+    <ul>
+        <li>A user should be able to select a person from the store and then place them onto the map. This could be to snap to a desk, or to a floating position.<img src="img/placement@2x.png">Currently, clicking on a person in the table pops them randomly onto the map. Under the hood this is implemented by adding everyone to the map and then turning the visibility to <code>none</code>. Dragging to the map would be nice to have as it would remove a point of cognative disonance as the user searches for the new entry.</li>
+        <li>If the user hovers over a person in the table they should be highlighted in on the map. This is already implemeted, but hover is problematic with touch&mdash;perhaps this isn't a problem and can be considered a progressive enhancement.</li>
+        <li>If the user drops a person near a chair, they should snap to that chair.<img src="img/snap_v_float@2x.png">This is currently implemented with point chairs. We may need to add area snaps if this isn't enough once we add better desk representations.</li>
+        <li>A user should be able to drag a person off a chair and into a floating state or back into the store.<img src="img/unsnap@2x.png">The first part of this is currently implemented by unsnapping, but removal from the map isn't done yet.</li>
+        <li>A user should be able to swap two people.<img src="img/swap_people@2x.png">I envision that this will work by clicking one person and then the other.</li>
+        <li>A user should be able to highlight/colour the people on the map by any of the columns of the store. These could be categorical or continuous, e.g. gender (categorical) or age (continuous).
+            <img src="img/continuous_data@2x.png">
+            <img src="img/discrete_data@2x.png">
+        </li>
+    </ul>
+
+    <h2>Other User Interactions and Thoughts</h2>
+    <ul>
+        <li>The table should be sortable by any column.</li>
+        <li>The table shouldn't have all the columns it curently has, these are mainly for debugging.</li>
+    </ul>
+
+    <h2>Data I/O</h2>
+
+    <p>Incoming data will be formatted like this:</p>
+    <pre><code>[
+    {
+        "FirstName": "Abbie",
+        "LastName": "Galvin",
+        "Studio": "Sydney",
+        "x": "0",
+        "y": "0",
+        "placed": false,
+        "onMap": true,
+        "team": "kabaddi"
+    },
+    {
+        "FirstName": "Abbie",
+        "LastName": "Lewis",
+        "Studio": "Sydney",
+        "x": "0",
+        "y": "0",
+        "placed": false,
+        "onMap": true,
+        "team": "cricket"
+    },
+    {
+        "FirstName": "Adam",
+        "LastName": "Hetherington",
+        "Studio": "Sydney",
+        "x": "0",
+        "y": "0",
+        "placed": false,
+        "onMap": false,
+        "team": "badminton"
+    }, ...       
+    </code></pre>
+</body>
+
+</html>
