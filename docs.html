@@ -49,9 +49,10 @@
 
     
     <h2>Users of this system</h2>
-    <p>Who will use the software and what job are they hiring it to do?</p>
+    <p>Who will use the software and what are they using it for?</p>
+
     <h3>Specialist users</h3>
-    <p>Initally, specialist users who plan layouts for offices. These are expert users who will be willing to learn a system. They want to be able to make small, or sweeping, changes to the alocation of people to desks. They will be willing to invest some time to learn more complex techniques and interactions if it leads to an overall speed up.</p>
+    <p>Initally, specialist users who plan layouts for offices. These are expert users who will be willing to learn a system. They want to be able to make small, or sweeping, changes to the allocation of people to desks. They will be willing to invest some time to learn more complex techniques and interactions if it leads to an overall speed up.</p>
     <h3>General users</h3>
     <p>In the future we'll make it available to all users so that they can explore the implications of a move that they might make themselves. These are casual users and are unlikely to take the effort to learn anything beyond the basic interactions.</p>
     
@@ -62,8 +63,8 @@
     <h2>Person &rarr; Desk Interactions</h2>
     <p>This list is not exhaustive, it's just what I have at the moment.</p>
     <ul>
-        <li>A user should be able to select a person from the store and then place them onto the map. This could be to snap to a desk, or to a floating position.<img src="img/placement@2x.png">Currently, clicking on a person in the table pops them randomly onto the map. Under the hood this is implemented by adding everyone to the map and then turning the visibility to <code>none</code>. Dragging to the map would be nice to have as it would remove a point of cognative disonance as the user searches for the new entry.</li>
-        <li>If the user hovers over a person in the table they should be highlighted in on the map. This is already implemeted, but hover is problematic with touch&mdash;perhaps this isn't a problem and can be considered a progressive enhancement.</li>
+        <li>A user should be able to select a person from the store and then place them onto the map. This could be to snap to a desk, or to a floating position.<img src="img/placement@2x.png">Currently, clicking on a person in the table pops them randomly onto the map. Under the hood this is implemented by adding everyone to the map and then turning the visibility to <code>none</code>. Dragging to the map would be nice to have as it would remove a point of cognitive dissonance as the user searches for the new entry.</li>
+        <li>If the user hovers over a person in the table they should be highlighted in on the map. This is already implemented, but hover is problematic with touch&mdash;perhaps this isn't a problem and can be considered a progressive enhancement.</li>
         <li>If the user drags a person near a chair, the person should snap to that chair.<img src="img/snap_v_float@2x.png">This is currently implemented with point chairs. We may need to add area snaps if this isn't enough once we add better desk representations.</li>
         <li>A user should be able to drag a person off a chair and into a floating state or back into the store.<img src="img/unsnap@2x.png">The first part of this is currently implemented by unsnapping, but removal from the map isn't done yet.</li>
         <li>A user should be able to swap two people.<img src="img/swap_people@2x.png">I envision that this will work by clicking one person and then the other.</li>
@@ -76,7 +77,7 @@
     <h2>Other User Interactions and Thoughts</h2>
     <ul>
         <li>The table should be sortable by any column.</li>
-        <li>The table shouldn't have all the columns it curently has, these are mainly for debugging.</li>
+        <li>The table shouldn't have all the columns it currently has, these are mainly for debugging.</li>
     </ul>
 
     <h2>Data I/O</h2>
