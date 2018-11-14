@@ -21,12 +21,17 @@
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script>
     function init() {
-      Tabletop.init( { key: 'https://docs.google.com/spreadsheets/d/1xBrpolpDErtC5lN8yq3fIPTUMLXnXL7vSXnrtZLA-u4/',
+      let key = 'https://docs.google.com/spreadsheets/d/1xBrpolpDErtC5lN8yq3fIPTUMLXnXL7vSXnrtZLA-u4/'
+      console.log("init", this, key);
+      Tabletop.init( { key: key,
                      callback: addFromData,
-                     simpleSheet: true } )
+                     simpleSheet: false,
+                     wanted: ["names"] } )
   }
   function addFromData(data, tabletop) { 
+    data = data.names.elements;
     console.log(data);
+
     let qrURL = 'https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=';
     d3
       .select("body")
@@ -100,17 +105,17 @@
         text-transform: capitalize;
       }
       .qr {
-        width: 20mm;
-        height: 20mm;
-        position: absolute;
-        right: 4mm;
         bottom: 1mm;
+        height: 25mm;
+        left: 1mm;
+        position: absolute;
+        width: 25mm;
       }
       .description {
         font-size: 62%;
         padding-left: 1.5mm;
         padding-top: 1.5mm;
-        width: 100%;
+        width: 95%;
       }
       .front-face-block {
         width: 38mm;
@@ -119,8 +124,8 @@
         position: absolute;
         right: 0;
         top: 0;
-        background-color: hsla(0, 0%, 0%, 0.6);
-        color: white;
+        background-color: hsla(0, 0%, 100%, 0.6);
+        color: black;
       }
     </style>
   

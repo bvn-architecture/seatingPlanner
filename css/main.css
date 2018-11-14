@@ -215,6 +215,7 @@ body.docs li {
 
 body.docs img.side {
     float: right;
+    max-width: 50%;
 }
 body.docs li img {
     display: block;
@@ -330,14 +331,31 @@ body.docs li img {
    ========================================================================== */
 
 @media print {
+    @page {
+        margin-top: 20mm;
+        margin-bottom: 20mm;
+        margin-left: 20mm;
+        margin-right: 20mm;
+     }
+    body.docs, body.docs li {
+        font-size: 14px;
+        /* width: calc(100% - 40mm); */
+        width: 100%;
+    }
+    body.docs h1 { font-size: 3rem; }
+    body.docs h2 { font-size: 1.5rem; }
+    body.docs h3 { font-size: 1.2rem; }
+    body.docs h4 { font-size: 1rem; }
+
+
     *,
     *:before,
     *:after {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster */
-        -webkit-box-shadow: none !important;
+        /* background: transparent !important;
+        color: #000 !important; */ /* Black prints faster */
+        /* -webkit-box-shadow: none !important;
         box-shadow: none !important;
-        text-shadow: none !important;
+        text-shadow: none !important; */
     }
 
     a,
