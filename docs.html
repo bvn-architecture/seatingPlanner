@@ -20,15 +20,21 @@
 <body class="docs">
     <h1>Seating Plan Designer Spec</h1>
 
-    <p>The combination of this page and the <a href="index.html">semi-working prototype</a> is a specification for the seating plan designer.</p>
+    <p>The combination of this page and the <a href="index.html">semi-working prototype</a> is a specification for a seating plan designer.</p>
     <p>We're looking for someone to help us get this project underway. Nobody on our team is a whizz with D3, we've made some progress, but we need your help to progress it. The following text tries to give some context to this idea.</p>
     
     <h2>Our Motivation</h2>
     <img class="side" src="img/map@2x.png">
-    <p>We have an office of &cong;200 people. deciding where they sit is quite a challenge in itself. Making a seating plan drawing is currently done in a tedious and manual way, without any feedback.</p>
-    <p>We'd like to make that process easier, and to provide some automatic, visual feedback on how the arrangement performs. This will be very simple to begin with, but will get more involved after this phase of the project.</p>
-    <p>As with all things, this is already slightly out of date, as we have a new system that allows people to move their own desks at their own will. This means that there will be a later system that tries to take this into acount, but for now we'd like to solve this version of the problem.</p>
+    <p>We are an architecture studio in Sydney. We have an office of about 200 people. Deciding where they sit is quite a challenge as we need to consider how to get teams close to each other, and how to put people together to help them learn from each other. Making a seating plan drawing is currently done in a tedious and manual way, without any feedback. This means that the person making the plan is doing two hard things at the same time, which isn't ideal!</p>
+    <p>We'd like to make that process easier, and to provide some automatic, visual feedback on how the arrangement performs. This will be very simplistic to begin with, but will get more involved after this phase of the project.</p>
+    <img class="side" src="img/desk_moving.jpg">
+    <p>As with all things, this is already slightly out of date, as we have a new system that allows people to move their own desks when they want to (they're all on wheels). This means that there will be a later system that tries to take this into account, but for now we'd like to solve this version of the problem.</p>
 
+    <h2>What will a good outcome be?</h2>
+    <p>We need a web based system that is smooth and straightforward to use. It should be extensible so that we can take the data it creates and do analysis on it. It should also be extensible so that we can overlay visualisation of the analysis metrics onto it. [TODO: more here]</p>
+
+    <h2>What will a good process be?</h2>
+    <p>We'd like to be involved fairly frequently in the development of this system. We don't want to meddle if you have an opinion about how to do it. We are going to be very available to ask questions. We'd like to share and review code through GitHub.</p>
 
     <h2>Some Definitions</h2>
 
@@ -53,11 +59,11 @@
     <p>There needs to be a zoomable map that people can be placed on. This means that we'll need to be able to drag people around and snap people to seats. There also needs to be a parallel representation, presumably as a table. This needs to have the people who need to be seated, and also their metadata. This should be sortable by any column.</p>
     
     <h2>Person &rarr; Desk Interactions</h2>
-    <p>This list is not exhaustive, it's jsut what I have at the moment.</p>
+    <p>This list is not exhaustive, it's just what I have at the moment.</p>
     <ul>
         <li>A user should be able to select a person from the store and then place them onto the map. This could be to snap to a desk, or to a floating position.<img src="img/placement@2x.png">Currently, clicking on a person in the table pops them randomly onto the map. Under the hood this is implemented by adding everyone to the map and then turning the visibility to <code>none</code>. Dragging to the map would be nice to have as it would remove a point of cognative disonance as the user searches for the new entry.</li>
         <li>If the user hovers over a person in the table they should be highlighted in on the map. This is already implemeted, but hover is problematic with touch&mdash;perhaps this isn't a problem and can be considered a progressive enhancement.</li>
-        <li>If the user drops a person near a chair, they should snap to that chair.<img src="img/snap_v_float@2x.png">This is currently implemented with point chairs. We may need to add area snaps if this isn't enough once we add better desk representations.</li>
+        <li>If the user drags a person near a chair, the person should snap to that chair.<img src="img/snap_v_float@2x.png">This is currently implemented with point chairs. We may need to add area snaps if this isn't enough once we add better desk representations.</li>
         <li>A user should be able to drag a person off a chair and into a floating state or back into the store.<img src="img/unsnap@2x.png">The first part of this is currently implemented by unsnapping, but removal from the map isn't done yet.</li>
         <li>A user should be able to swap two people.<img src="img/swap_people@2x.png">I envision that this will work by clicking one person and then the other.</li>
         <li>A user should be able to highlight/colour the people on the map by any of the columns of the store. These could be categorical or continuous, e.g. gender (categorical) or age (continuous).
@@ -74,39 +80,21 @@
 
     <h2>Data I/O</h2>
 
-    <p>Incoming data will be formatted like this:</p>
+    <p>We currently assume that incoming data will be formatted like this:</p>
     <pre><code>[
     {
         "FirstName": "Abbie",
-        "LastName": "Galvin",
-        "Studio": "Sydney",
-        "x": "0",
-        "y": "0",
-        "placed": false,
-        "onMap": true,
-        "team": "kabaddi"
-    },
-    {
-        "FirstName": "Abbie",
-        "LastName": "Lewis",
-        "Studio": "Sydney",
-        "x": "0",
-        "y": "0",
-        "placed": false,
-        "onMap": true,
-        "team": "cricket"
-    },
-    {
-        "FirstName": "Adam",
-        "LastName": "Hetherington",
-        "Studio": "Sydney",
-        "x": "0",
-        "y": "0",
-        "placed": false,
-        "onMap": false,
-        "team": "badminton"
-    }, ...       
-    </code></pre>
+        "LastName":  "Galvin",
+        "login":     "agalvin"
+        "Studio":    "Sydney",
+        "loc":       {"x": "0", "y": "0"},
+        "placed":    false,
+        "onMap":     true,
+        "team":      [{"name": "kabaddi", "loading":0.8},
+                      {"name": "cricket", "loading":0.2}] //Brian, thoughts on making this % of their time vs % of a full week? I.e. if someone works 4 days a week, should 1 day 0.25 or 0.2?
+    }...</code></pre>
+
+    <p>There may also be other data sources to put into the table that are joined from other datasets, using <code>login</code> as the key.</p>
 </body>
 
 </html>
