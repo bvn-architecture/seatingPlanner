@@ -1,0 +1,214 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Octo Stickers</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
+  <script>
+    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    const fake = {
+  "companyData": {
+    "hireDate": "Mon, 05 Jul 2010 00:00:00 GMT",
+    "hoursPerDay": 6.4,
+    "isFireWarden": "N",
+    "isFirstAider": "N",
+    "jobCostRate": 180,
+    "jobCostType": "H",
+    "status": "A",
+    "supervisor": "000339",
+    "type": "E",
+    "username": "BDOHERTY",
+    "yearsOtherFirms": 0
+  },
+  "contact": {
+    "email": "ben_doherty@bvn.com.au",
+    "extention": "415"
+  },
+  "education": {
+    "qualifications": "Bachelor of Arts - Architecture (Oxford Brookes University), Diploma of Architecture (Oxford Brookes University), Master of Science in Architecture - Computing and Design (University of East London (UEL))"
+  },
+  "images": {
+    "large": "http://people.bvn.com.au/employees/D9097CB3-C896-41DC-ADCB-FE9BA108A9FE/image?size=original",
+    "thumbnail": "http://people.bvn.com.au/employees/D9097CB3-C896-41DC-ADCB-FE9BA108A9FE/image"
+  },
+  "location": {
+    "city": "Sydney",
+    "country": "AU",
+    "postcode": null,
+    "state": "NSW"
+  },
+  "name": {
+    "employeeID": "000533",
+    "firstName": "Benjamin",
+    "initials": "BJD",
+    "lastName": "Doherty",
+    "middleName": "John",
+    "preferredFirstName": "Ben",
+    "professionalSuffix": null
+  },
+  "personal": {
+    "birthday": {
+      "day": 11,
+      "month": 12
+    },
+    "dietaryDislikes": null,
+    "dietaryLikes": null,
+    "dietaryReqs": null,
+    "facebook": null,
+    "gender": "M",
+    "github": null,
+    "instagram": null,
+    "linkedIn": null,
+    "pinterest": null,
+    "tumblr": null,
+    "twitter": null
+  },
+  "projects": {
+    "projectCount": 5,
+    "projectRoles": "Project Director",
+    "projectTypes": [
+      "Sport",
+      "Workplace"
+    ]
+  },
+  "resume": {}
+}
+    const containerSelector = "body";
+    function init() {
+        let base = "http://people.bvn.com.au/employees"
+        d3.json(base)
+            .then(d=>{
+                d.employees.forEach(
+                    p => {
+                        addTradingCard(containerSelector, fake, p.id)
+                        // console.log(`${base}/${p.id}`);
+                    }
+                    // p=> d3.json(`${base}/${p.id}`)
+                    //       .then( j => console.log(p, j)       )
+                    //       .catch(e => console.error('err', e) )
+                    )
+            });
+    }
+    function addTradingCard(containerSelector, data, id) {
+            // <img class="portrait"    src="${data.images.large}">
+        let card = `
+            <h2 class="location">${data.location.city[0]}</h2>
+            <h1 class="name"><span>${data.name.preferredFirstName}<br>${data.name.lastName}</span></h1>
+            <img class="portrait" src="http://people.bvn.com.au/employees/${id}/image?size=original">
+            ${data.companyData.isFireWarden=="Y" ? '<img class="fire-warden" src="img/fire.png">' : ``}
+            ${data.companyData.isFirstAider=="Y" ? '<img class="first-aid" src="https://mbtskoudsalg.com/images/bandaid-png-2.png">' : ``}
+            <div class="trivia">
+                <p class="education">${data.education.qualifications}</p>
+                <p class="birthday">Birthday: ${months[data.personal.birthday.month-1]} ${data.personal.birthday.day}</p>
+            </div>
+        `;
+        
+        // console.log(data, containerSelector, card);
+        let template = document.createElement('div');
+        template.setAttribute("class", `card ${data.location.city}`)
+        template.innerHTML = card.trim();
+        document.querySelector(containerSelector).appendChild(template);
+    }
+
+    window.addEventListener('DOMContentLoaded', init)
+    </script>
+
+    <style>
+    @media print {
+    @page {
+        margin-top:    10mm;
+        margin-bottom: 10mm;
+        margin-left:   10mm;
+        margin-right:  10mm;
+     }
+    }
+    * {
+        margin: 0;
+    }
+    body {
+        font-family: Blender;
+    }
+    .card {
+        width: 63mm;
+        height: 90mm;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+    }
+    .portrait {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .first-aid {
+        position: absolute;
+        bottom: 0mm;
+        right: 0mm;
+        height: 24mm;
+        transform: rotate(-45deg);
+    }
+    .fire-warden {
+        position: absolute;
+        bottom: 0mm;
+        left: 0mm;
+        height: 24mm;
+        transform: rotate(45deg);
+    }
+    .trivia {
+        position: absolute;
+        background-color: #000000b0;
+        color: white;
+        bottom: 0;
+        padding: 1mm 4mm;
+    }
+    .education {
+        font-size: 50%
+    }
+    .birthday {
+        margin-top: 1mm; 
+    }
+    .location {
+        position: absolute;
+        top: -17px;
+        right: 5px;
+        color: white;
+        font-size: 400%;
+        padding: 0;
+    }
+    .name span {
+        background-color: #ffffff78;
+        padding: 1mm 1mm 1mm 0;
+    }
+    h1,
+    h2 {
+        padding: 0;
+        margin-top: 1mm;
+        padding-left: 4mm;
+    }
+    </style>
+
+
+
+</head>
+
+<body></body>
+
+</html>
