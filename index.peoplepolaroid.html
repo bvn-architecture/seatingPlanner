@@ -25,7 +25,9 @@
     window.bigJson = [];
 
     function sleep (time) {
-       return new Promise((resolve) => setTimeout(resolve, time));
+    //    return new Promise((resolve) => setTimeout(resolve, time));
+    var now = new Date().getTime();
+    while(new Date().getTime() < now + time){ /* do nothing */ }
     }
     const containerSelector = "body";
     function init() {
@@ -43,19 +45,29 @@
                 //      {"employeeNumber":null,"id":"2604B0BA-0FA7-468C-8E06-F9243146CB3D","name":"Amanda Tenn"},
                 //      {"employeeNumber":null,"id":"14337D50-792C-4728-9C20-DC66EE55FA35","name":"Ninotschka Titchkosky"}
                 //     ];
-                // d = {employees:d};
-                d.forEach(
-                    p => {
-                        console.log(p);
-                        sleep(1000).then(()=>{
-                            d3.json(`${base}/${p.id}`)
-                              .then( j => window.addTradingCard(containerSelector, j, p.id)  )
-                              .catch(e => {
-                                  console.error('err', e, p);
-                                  window.failures.push(p)
-                                  });
-                        })
-                    })
+                for (let i = 0; i < d.length; i++) {
+                    const p = d[i];
+                    sleep(Math.random(5000)) //.then(()=>{
+                        
+                        console.log("p:", Date.now(), p);
+                        d3.json(`${base}/${p.id}`)
+                            .then( j => window.addTradingCard(containerSelector, j, p.id)  )
+                            .catch(e => {
+                                console.error('err', e, p);
+                                window.failures.push(p)
+                            });    
+                    // });
+                    
+                }
+                // d.forEach( p => {
+                //         console.log("p:", p);
+                //         d3.json(`${base}/${p.id}`)
+                //             .then( j => window.addTradingCard(containerSelector, j, p.id)  )
+                //             .catch(e => {
+                //                 console.error('err', e, p);
+                //                 window.failures.push(p)
+                //             });
+                //     })
             });
     }
     
@@ -63,38 +75,9 @@
         bigJson.push(data);
         let card = `
             <div class="face">
-                <h2 class="location">${data.location.city ? data.location.city[0] : "?"}</h2>
                 <h1 class="name"><span>${data.name.preferredFirstName}<br>${data.name.lastName}</span></h1>
                 <img class="portrait" src="${data.images.large}">
-                ${data.companyData.isFireWarden ? '<img class="fire-warden" src="img/fire.png">' :''}
-                ${data.companyData.isFirstAider ? '<img class="first-aid" src="https://mbtskoudsalg.com/images/bandaid-png-2.png">' : ''}
-                <p class="value">${data.resume.valueStatement ? data.resume.valueStatement.text : ":( no value statement"}</p>
-            </div>
-            <div class="trivia">
-                <p class="resourceFor"><span class="title">Resource for:</span>
-                    ${data.resume.resourceFor ? unbreakList(data.resume.resourceFor, "<br>", ", ") : "Nothing that we know of!"}
-                </p>
-                <p class="education"><span class="title">Education:</span>
-                    ${educationRow(data.education)}
-                </p>
-                ${regRow(data.proRegistrations)}
-                <p class="supervisor"><span class="title">Supervisor:</span>
-                    ${data.companyData.supervisor ? data.companyData.supervisor.firstName + " " + data.companyData.supervisor.lastName : "none!"}
-                </p>
-                <p class="years-elsewhere"><span class="title">Years at other firms:</span>
-                    ${data.companyData.yearsOtherFirms}
-                </p>
-                <p class="birthday"><span class="title">Birthday:</span>
-                    ${months[data.personal.birthday.month-1]} ${data.personal.birthday.day}
-                </p>
-            </div>
-            <div class="inside1">
-            <dl>
-                <dt class="achievements">Achievements:</dt><dd>${data.resume.achievements ? cleanHTML(data.resume.achievements.text) : "Nothing in Vision"}</dd>
-                <dt class="approach">Approach:</dt><dd>${data.resume.approach ? cleanHTML(data.resume.approach.text) : "Nothing in Vision"}</dd>
-                <dt class="oneLine">One Line:</dt><dd>${data.resume.oneLine ? cleanHTML(data.resume.oneLine.text) : "Nothing in Vision"}</dd>
-            </div>
-        `;
+            </div>`;
         
         // console.log(data, containerSelector, card);
         let template = document.createElement('div');
@@ -156,6 +139,7 @@
     </script>
 
     <style>
+    @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Dawning+of+a+New+Day');
     @media print {
     @page {
         margin-top:    10mm;
@@ -168,11 +152,15 @@
         margin: 0;
     }
     body {
-        font-family: Blender;
+        /* font-family: 'Caveat', cursive; */
+        font-family: 'Amatic SC', cursive;
+        /* font-family: 'Dawning of a New Day', cursive;  */
     }
     .card {
-        width: calc(190mm/1);
-        height: calc(270mm/1);
+        /* width: calc(190mm/2); */
+        /* height: calc(270mm/2); */
+        width: 8.8cm;
+        height: 10.7cm;
         overflow: hidden;
         display: inline-block;
         position: relative;
@@ -196,9 +184,10 @@
     dl:after {content:"";display:table;clear:both;}
 
     .face {
-        position: relative;
-        width: 50%;
-        height: 50%;
+        position: absolute;
+        width: 7.9cm;
+        height: 7.9cm;
+        margin: 4.5mm;
         display: inline-block;
     }
     .face .value {
@@ -270,6 +259,10 @@
     }
     span.title {
         font-weight: bold;
+    }
+    .name {
+        position: absolute;
+        bottom: -30mm;
     }
     .name span {
         background-color: #ffffff78;
