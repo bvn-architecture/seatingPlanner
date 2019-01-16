@@ -137,6 +137,17 @@ circle.person-dot {
     font-family: blender;
 }
 
+.furniture {
+    fill: aliceblue;
+    stroke: black;
+    stroke-width: 10;
+}
+path.perimeter {
+    fill: none;
+    stroke: black;
+    stroke-width: 40px;
+}
+
 /*HULL*/
 .hull {
     fill: hsla(208, 100%, 50%);

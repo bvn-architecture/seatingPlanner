@@ -3,14 +3,43 @@ document.addEventListener("DOMContentLoaded", function(){
     Promise.all([
         d3.json("data/peopleData.json"),
         d3.json("data/tempPoints.json"),
-        d3.json("data/boundary_points.json")
+        d3.json("data/boundary_points.json"),
+        d3.json("data/overall_floor_boundary.json"),
+
+        d3.json("data/furniture_instance_metadata.json"),
+
+        d3.json("data/Family Architypes/127cm (52inch).json"), 
+        d3.json("data/Family Architypes/1500X780.json"), 
+        d3.json("data/Family Architypes/2250x1800mm Orange.json"), 
+        d3.json("data/Family Architypes/828x400mm.json"), 
+        d3.json("data/Family Architypes/Dining Table 1500x1500.json"), 
+        d3.json("data/Family Architypes/Leda_InvisiII_Inwall_Suite.json"), 
+        d3.json("data/Family Architypes/NR1.json"), 
+        d3.json("data/Family Architypes/NS1.json"), 
+        d3.json("data/Family Architypes/Stool_Stylecraft_Capdell_FUR.json"), 
+        d3.json("data/Family Architypes/Workstation_1 Person_BVN_New_Adjustable.json")
       ])
       .then(([peopleData, 
               seatPoints,
-              boundaries]) =>  {
-        // console.log("all, as promised", [peopleData, seatPoints, boundaries]);
+              boundaries,
+              overall_floor_boundary,
+            
+              furniture_instance_metadata,
+            
+              furn_a,furn_b,furn_c,furn_d,furn_e,furn_f,furn_g,furn_h,furn_i,furn_j
+            ]) =>  {
+        console.log("all, as promised", [peopleData, 
+                                         seatPoints, 
+                                         boundaries,
+                                         overall_floor_boundary,
+        
+                                        furniture_instance_metadata,
+            
+                                        furn_a,furn_b,furn_c,furn_d,furn_e,furn_f,furn_g,furn_h,furn_i,furn_j
+                                    ]);
 
-        peopleData = peopleData.filter((p)=>p.FirstName[0]=='A');
+        // Cut the data down to just A people so that it's easier to work with
+        peopleData = peopleData.filter((p) => p.FirstName[0] == 'A');
 
         let svg = d3.select("svg");
         let width = +svg.attr("width");
@@ -50,6 +79,46 @@ document.addEventListener("DOMContentLoaded", function(){
         let color = d3.scaleOrdinal()
             .range(d3.schemeAccent);
 
+
+        // TODO: implement a scale to flip the map
+        // var xScale = d3.scaleLinear()
+        //     .domain([0, n-1]) // input
+        //     .range([0, width]); // output
+        
+        // var yScale = d3.scaleLinear()
+        //     .domain([0, 1]) // input 
+        //     .range([height, 0]); // output 
+
+
+        let furniture_outlines = [ furn_a,furn_b,furn_c,furn_d,furn_e,furn_f,furn_g,furn_h,furn_i,furn_j ];
+        // 0:
+        // Family: "Television_Flat_All Sizes_EEQ"
+        // Family Type: "127cm (52inch)"
+        // dumpDateUTC: "2018-12-05T06:25:01.302"
+        // loopVertices: [Array(8)]
+        function tidyName(s) {
+            if(s!=undefined){
+                return s.trim().replace(/\s+/gi, "_");
+            } else {
+                return "";
+            }
+        }
+        var defs = svg.append('defs');
+        furniture_outlines.map((f)=>{
+            defs.selectAll("path.boundary")
+                .data(f.loopVertices)
+                .enter()
+                .append("path")
+                .attr("id", tidyName(f.Family))
+                .attr("d", (d) => {
+                    let xyPairs = d.map((c) => `${c.X},${c.Y}`);
+                    return "M" + xyPairs.join("L") + "Z";
+                })
+        });
+        
+        
+
+
         let g = svg.append("g")
             .attr("transform", "translate(1120,38) scale(0.0165)"); // TODO: make this dynamic
 
@@ -68,6 +137,26 @@ document.addEventListener("DOMContentLoaded", function(){
             })
             .classed("layoutable-area", true)
             .classed("boundary", true);
+        backgroundLayer
+            .selectAll("path.perimeter")
+            .data(overall_floor_boundary.loopVertices)
+            .enter()
+            .append("path")
+            .attr("d", (d) => {
+                let xyPairs = d.map((c) => `${c.X},${c.Y}`);
+                return "M" + xyPairs.join("L") + "Z";
+            })
+            .classed("overall-area", true)
+            .classed("perimeter", true);
+        
+        furniture_instance_metadata.map((f)=>{
+            // console.log(f);
+            backgroundLayer.append("g")
+                .attr("transform",`translate(${f.Point.X}, ${f.Point.Y}) rotate(${(f.Rotation )})`)
+                .attr("class", `${tidyName(f.Type.family)} furniture`)
+                .append("use")
+                .attr("xlink:href",`#${tidyName(f.Type.family)}`)
+        });
 
         let people = peopleLayer.selectAll("g.person")
             .data(peopleData);
