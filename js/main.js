@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function(){
     Promise.all([
         d3.json("data/peopleData.json"),
-        d3.json("data/tempPoints.json"),
+        // d3.json("data/tempPoints.json"),
         d3.json("data/boundary_points.json"),
         d3.json("data/overall_floor_boundary.json"),
 
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function(){
         d3.json("data/Family Architypes/Workstation_1 Person_BVN_New_Adjustable.json")
       ])
       .then(([peopleData, 
-              seatPoints,
+            //   seatPoints,
               boundaries,
               overall_floor_boundary,
             
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function(){
               furn_a,furn_b,furn_c,furn_d,furn_e,furn_f,furn_g,furn_h,furn_i,furn_j
             ]) =>  {
         console.log("all, as promised", [peopleData, 
-                                         seatPoints, 
+                                        //  seatPoints, 
                                          boundaries,
                                          overall_floor_boundary,
         
@@ -47,12 +47,14 @@ document.addEventListener("DOMContentLoaded", function(){
         let transform = d3.zoomIdentity;
         let radius = 700;
 
-        let snapPoints = seatPoints.map((s) => {
-            return {
-                x: Math.round(s.x),
-                y: Math.round(s.y)
-            };
+        let snapPoints = furniture_instance_metadata.map((s) => {
+            console.log(s);
+            if (s.Type.family.includes("Workstation")) {
+                let p = { x: s.Point.X, y: s.Point.Y };
+                return p;
+            }
         });
+        snapPoints = snapPoints.filter((x) => x!=undefined);
         let bounds = getPointCollectionBounds(snapPoints);
         // console.log(bounds);
         svg.attr("viewBox", `${bounds.xMin} ${bounds.yMin} ${bounds.xMax-bounds.xMin} ${bounds.yMax-bounds.yMin}`);
