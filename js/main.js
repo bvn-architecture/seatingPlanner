@@ -2,7 +2,6 @@
 document.addEventListener("DOMContentLoaded", function(){
     Promise.all([
         d3.json("data/peopleData.json"),
-        // d3.json("data/tempPoints.json"),
         d3.json("data/boundary_points.json"),
         d3.json("data/overall_floor_boundary.json"),
 
@@ -20,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function(){
         d3.json("data/Family Architypes/Workstation_1 Person_BVN_New_Adjustable.json")
       ])
       .then(([peopleData, 
-            //   seatPoints,
               boundaries,
               overall_floor_boundary,
             
@@ -28,15 +26,15 @@ document.addEventListener("DOMContentLoaded", function(){
             
               furn_a,furn_b,furn_c,furn_d,furn_e,furn_f,furn_g,furn_h,furn_i,furn_j
             ]) =>  {
-        console.log("all, as promised", [peopleData, 
-                                        //  seatPoints, 
-                                         boundaries,
-                                         overall_floor_boundary,
-        
-                                        furniture_instance_metadata,
-            
-                                        furn_a,furn_b,furn_c,furn_d,furn_e,furn_f,furn_g,furn_h,furn_i,furn_j
-                                    ]);
+        console.log("all, as promised", 
+                    [peopleData,
+                     boundaries,
+                     overall_floor_boundary,
+
+                     furniture_instance_metadata,
+
+                     furn_a,furn_b,furn_c,furn_d,furn_e,furn_f,furn_g,furn_h,furn_i,furn_j
+                    ]);
 
         // Cut the data down to just A people so that it's easier to work with
         peopleData = peopleData.filter((p) => p.FirstName[0] == 'A');
@@ -45,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function(){
         let width = +svg.attr("width");
         let height = +svg.attr("height");
         let transform = d3.zoomIdentity;
-        let radius = 700;
+        let radius = 500;
 
         let snapPoints = furniture_instance_metadata.map((s) => {
             console.log(s);
@@ -67,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function(){
         peopleData = peopleData.map((person) => ({
                 x: getCoord(person.x, bounds.xMin, bounds.xMax),
                 y: getCoord(person.y, bounds.yMin, bounds.yMax),
-                displayName: person.FirstName + " " + person.LastName,
+                displayName: `${person.FirstName} ${person.LastName}`,
                 selectorName: person.FirstName + person.LastName.replace(/\s/gi, '-'),
                 FirstName: person.FirstName,
                 LastName: person.LastName,
