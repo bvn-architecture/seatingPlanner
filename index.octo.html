@@ -74,19 +74,20 @@
       :root {
         --sticker-height: 67.7mm;
         --sticker-width:  99.1mm;
+        --text-col-width: 38.0mm;
+        --qr-width: 25.0mm;
       }
 
       body, div, div {
         font-family: Blender, "Blender Book", sans-serif;
       }
       .portrait {
-        width: var(--sticker-width);
-        float: left;
+        width: calc(var(--sticker-width) - var(--text-col-width));
         vertical-align: top;
         object-fit: cover;
         height: var(--sticker-height);
-        object-position: 0 0;
         z-index: -10;
+        padding-right: 10em;
       }
       .sticker {
         width: var(--sticker-width);
@@ -106,10 +107,10 @@
       }
       .qr {
         bottom: 1mm;
-        height: 25mm;
-        left: 1mm;
+        height: var(--qr-width);
+        left: calc((var(--text-col-width) - var(--qr-width)) / 2);
         position: absolute;
-        width: 25mm;
+        width: var(--qr-width);
       }
       .description {
         font-size: 62%;
@@ -118,7 +119,7 @@
         width: 95%;
       }
       .front-face-block {
-        width: 38mm;
+        width: var(--text-col-width);
         float: right;
         height: var(--sticker-height);
         position: absolute;
