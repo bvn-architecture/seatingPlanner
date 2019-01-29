@@ -103,6 +103,12 @@ textarea {
     display: inline-block;
     /* height: 40em; */
     width: 40em;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 30%;
+    width: 100%;
+    overflow: auto;
 }
 
 svg.bubbles {
@@ -165,6 +171,9 @@ table {
 /* Zebra striping */
 tr:nth-of-type(odd) { 
     background: #eee; 
+}
+tr:nth-of-type(even) { 
+    background: #fff; 
 }
 th { 
     background: #333; 

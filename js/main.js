@@ -120,7 +120,8 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
         let g = svg.append("g")
-            .attr("transform", "translate(1120,38) scale(0.0165)"); // TODO: make this dynamic
+            //.attr("transform", "translate(-20002.178465455894,4353.975785950301) scale(0.596946475280263)"); // TODO: make this dynamic
+            //d3.zoomIdentity.translate(200, 0).scale(1);
 
         let analyticsLayer  = g.append('g').attr('class', "analytics");
         let backgroundLayer = g.append('g').attr('class', "background");
@@ -174,7 +175,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
         
         svg.call(d3.zoom()
-            .scaleExtent([0.0165, 10])
+            //.scaleExtent([0.0165, 10])
             .on("zoom", zoomed));
         function zoomed() {
             g.attr("transform", d3.event.transform);
@@ -270,29 +271,48 @@ document.addEventListener("DOMContentLoaded", function(){
         var sortAscending = true;
         var table = d3.select("#page-wrap").append("table");
         var titles = d3.keys(peopleData[0]);
-        var headers = table
-            .append("thead")
-            .append("tr")
-            .selectAll("th")
-            .data(titles);
-        var rows = table
-            .append("tbody")
-            .selectAll("tr")
-            .data(peopleData);
-
+        var headers; 
+        var headersEl;
+        var rows;
+        var rowsEl;
+        
+        table
+                .append("thead")
+                .append("tr");
+       
+        table
+                .append("tbody")
+        
         updateTable();
         function updateTable() {
-        
-            headers
+            
+            headers = table
+                .select("thead tr")
+                .selectAll("th")
+                .data(titles);
+
+            headersEl = headers
                 .enter()
                 .append("th")
+                .merge(headers);
+
+            headersEl
                 .text(d => d)
                 .on("click", doSort);
+                
             headers.exit().remove();
             
-            rows
+            rows = table
+                .select("tbody")
+                .selectAll("tr")
+                .data(peopleData)
+            
+            rowsEl = rows
                 .enter()
                 .append("tr")
+                .merge(rows);
+
+            rowsEl
                 .attr("data-row", d => d.FirstName)
                 .attr("data-who", d=>d.FirstName)
                 .on('click', addPersonToMap)
@@ -303,7 +323,7 @@ document.addEventListener("DOMContentLoaded", function(){
                 .on("contextmenu", removePersonFromMap)
                 .selectAll("td")
                 .data((d) => {
-                return titles.map((k) =>({ value: d[k], colName: k }) );
+                    return titles.map((k) =>({ value: d[k], colName: k }) );
                 })
                 .enter()
                 .append("td")
@@ -312,6 +332,7 @@ document.addEventListener("DOMContentLoaded", function(){
             rows.exit().remove();
             // made, now update
             
+            /*
             headers
                 .text(d => d)
                 .on("click", doSort);
@@ -319,25 +340,35 @@ document.addEventListener("DOMContentLoaded", function(){
             rows
                 .selectAll("td")
                 .attr("data-th", d => d.name)
-                .text(d => d.value);
+                .text(d => d.value); */
 
-            
-            
-            
-            function doSort(d) {
-                headers.attr("class", "header"); //reset header to no arrow
-
-                if (sortAscending) {
-                rows.sort((a, b) => b[d] < a[d]);
-                sortAscending = false;
-                this.className = "aes"; // adds arrow
-                } else {
-                rows.sort((a, b) => b[d] > a[d]);
-                sortAscending = true;
-                this.className = "des"; // adds arrow
-                }
-            }
         
+        }
+
+        function doSort(d) {
+            headersEl.attr("class", "header"); //reset header to no arrow
+
+            var direction;
+            if (sortAscending) {
+                sortAscending = false;
+                direction = 1;
+                this.className = "aes";
+            } else {
+                sortAscending = true;
+                direction = -1;
+                this.className = "des"; // adds arrow
+            }
+            
+            rowsEl.sort(function(a, b){
+                var nameA= Number.isInteger(a[d]) ? a[d] : a[d].toLowerCase();
+                var nameB= Number.isInteger(b[d]) ? b[d] : b[d].toLowerCase();
+                if (nameA < nameB) //sort string ascending
+                    return -1 * direction;
+                if (nameA > nameB)
+                    return 1 * direction;
+                return 0; //default return value (no sorting)
+            });
+            // updateTable();
         }
 
 
