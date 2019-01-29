@@ -7,16 +7,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
         d3.json("data/furniture_instance_metadata.json"),
 
-        d3.json("data/Family Architypes/127cm (52inch).json"), 
-        d3.json("data/Family Architypes/1500X780.json"), 
-        d3.json("data/Family Architypes/2250x1800mm Orange.json"), 
-        d3.json("data/Family Architypes/828x400mm.json"), 
-        d3.json("data/Family Architypes/Dining Table 1500x1500.json"), 
-        d3.json("data/Family Architypes/Leda_InvisiII_Inwall_Suite.json"), 
-        d3.json("data/Family Architypes/NR1.json"), 
-        d3.json("data/Family Architypes/NS1.json"), 
-        d3.json("data/Family Architypes/Stool_Stylecraft_Capdell_FUR.json"), 
-        d3.json("data/Family Architypes/Workstation_1 Person_BVN_New_Adjustable.json")
+            d3.json("data/family_architypes.json"),
       ])
       .then(([peopleData, 
               boundaries,
@@ -24,16 +15,16 @@ document.addEventListener("DOMContentLoaded", function(){
             
               furniture_instance_metadata,
             
-              furn_a,furn_b,furn_c,furn_d,furn_e,furn_f,furn_g,furn_h,furn_i,furn_j
+              furniture_outlines
             ]) =>  {
         console.log("all, as promised", 
-                    [peopleData,
-                     boundaries,
-                     overall_floor_boundary,
+                    ["peopleData", peopleData,
+                     "boundaries", boundaries,
+                     "overall_floor_boundary", overall_floor_boundary,
 
-                     furniture_instance_metadata,
+                     "furniture_instance_metadata", furniture_instance_metadata,
 
-                     furn_a,furn_b,furn_c,furn_d,furn_e,furn_f,furn_g,furn_h,furn_i,furn_j
+                     "furniture_outlines", furniture_outlines
                     ]);
 
         // Cut the data down to just A people so that it's easier to work with
@@ -46,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function(){
         let radius = 500;
 
         let snapPoints = furniture_instance_metadata.map((s) => {
-            console.log(s);
+            // console.log(s);
             if (s.Type.family.includes("Workstation")) {
                 let p = { x: s.Point.X, y: s.Point.Y };
                 return p;
@@ -90,7 +81,6 @@ document.addEventListener("DOMContentLoaded", function(){
         //     .range([height, 0]); // output 
 
 
-        let furniture_outlines = [ furn_a,furn_b,furn_c,furn_d,furn_e,furn_f,furn_g,furn_h,furn_i,furn_j ];
         // 0:
         // Family: "Television_Flat_All Sizes_EEQ"
         // Family Type: "127cm (52inch)"
@@ -105,19 +95,21 @@ document.addEventListener("DOMContentLoaded", function(){
         }
         var defs = svg.append('defs');
         furniture_outlines.map((f)=>{
+            let a = f;
             defs.selectAll("path.boundary")
                 .data(f.loopVertices)
                 .enter()
                 .append("path")
                 .attr("id", tidyName(f.Family))
                 .attr("d", (d) => {
-                    let xyPairs = d.map((c) => `${c.X},${c.Y}`);
+                    // Something changed in the data format here,
+                    // I think it flipped from [[{},{}..]] to [{},{}..]
+                    // this works, bit I'm not sure if it's ideal
+                    let xyPairs = f.loopVertices.map((c) => `${c.X},${c.Y}`);
                     return "M" + xyPairs.join("L") + "Z";
                 })
         });
         
-        
-
 
         let g = svg.append("g")
             //.attr("transform", "translate(-20002.178465455894,4353.975785950301) scale(0.596946475280263)"); // TODO: make this dynamic
