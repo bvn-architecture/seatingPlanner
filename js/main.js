@@ -80,6 +80,7 @@ document.addEventListener("DOMContentLoaded", function(){
                 id: person.id
             }) );
 
+
         let color = d3.scaleOrdinal()
             .range(d3.schemeAccent);
 
@@ -165,7 +166,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
         let peopleOnMap = peopleData.filter(p => p.onMap == true);
         let people = peopleLayer.selectAll("g.person")
-            .data(peopeOnMap, p => p.id );
+            .data(peopleOnMap, p => p.id );
         drawPeople();
             
 
@@ -193,6 +194,8 @@ document.addEventListener("DOMContentLoaded", function(){
 
         function dragstarted(d) {
             d3.select(this).raise().classed("active", true);
+            d.highlighted = true;
+            updateTable();
         }
 
         function dragged(d) {
@@ -229,14 +232,15 @@ document.addEventListener("DOMContentLoaded", function(){
             let i = peopleData.findIndex(p => p.FirstName === d.FirstName);
             peopleData[i].placed = false;
             draggedNode.classed("active", false);
-            updateTable();
-
+            
             if (draggedNode.classed("snapped")) {
                 peopleData[i].x = d.x;
                 peopleData[i].y = d.y;
                 peopleData[i].placed = true;
                 console.log(peopleData, d);
             } 
+            d.highlighted = false;
+            updateTable();
         }
 
 
@@ -310,31 +314,37 @@ document.addEventListener("DOMContentLoaded", function(){
             rows = table
                 .select("tbody")
                 .selectAll("tr")
-                .data(peopleData)
+                .data(peopleData);
             
             rowsEl = rows
                 .enter()
                 .append("tr")
-                
-
-            rowsEl
                 .attr("data-row", d => d.FirstName)
                 .attr("data-who", d=>d.FirstName)
+                
                 .on('click', togglePersonOnMap)
                 // .on('mousedown', highlightPerson)
                 // .on('mouseup', unhighlightPerson)
                 .on('mouseover', highlightPerson)
                 .on('mouseout', unhighlightPerson)
                 .on("contextmenu", removePersonFromMap)
+
+            let rowMerge = rowsEl.merge(rows);
+            rowMerge.classed("highlighted", d=>d.highlighted)
+
+            let rowContent = rowMerge
                 .selectAll("td")
                 .data((d) => {
                     return titles.map((k) =>({ value: d[k], colName: k }) );
-                })
-                .enter()
+                });
+
+            rowContent.enter()
                 .append("td")
                 .attr("data-th", d => d.colName)
+                .merge(rowContent)
                 .text(d => d.value);
-            rows.exit().remove();
+            
+                rows.exit().remove();
             // made, now update
             
             /*

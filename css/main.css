@@ -178,6 +178,9 @@ tr:nth-of-type(odd) {
 tr:nth-of-type(even) { 
     background: #fff; 
 }
+tr.highlighted{
+    border: 3px solid lightskyblue;
+}
 th { 
     background: #333; 
     color: white; 
@@ -187,7 +190,7 @@ th {
     background-position: 3% center;
 }
 td, th { 
-    padding: 6px; 
+    padding: 2px 6px;
     border: 1px solid #ccc; 
     text-align: left; 
 }
