@@ -38,6 +38,9 @@ document.addEventListener("DOMContentLoaded", function(){
 
         // Cut the data down to just A people so that it's easier to work with
         peopleData = peopleData.filter((p) => p.FirstName[0] == 'A');
+        peopleData.forEach( (val, index) => {
+            peopleData[index].id = index;
+        })
 
         let svg = d3.select("svg");
         let width = +svg.attr("width");
@@ -73,8 +76,10 @@ document.addEventListener("DOMContentLoaded", function(){
                 team: person.team,
                 placed: person.placed,
                 onMap: person.onMap,
-                highlighted: false
+                highlighted: false,
+                id: person.id
             }) );
+
 
         let color = d3.scaleOrdinal()
             .range(d3.schemeAccent);
@@ -159,8 +164,9 @@ document.addEventListener("DOMContentLoaded", function(){
                 .attr("xlink:href",`#${tidyName(f.Type.family)}`)
         });
 
+        let peopleOnMap = peopleData.filter(p => p.onMap == true);
         let people = peopleLayer.selectAll("g.person")
-            .data(peopleData);
+            .data(peopleOnMap, p => p.id );
         drawPeople();
             
 
@@ -188,6 +194,8 @@ document.addEventListener("DOMContentLoaded", function(){
 
         function dragstarted(d) {
             d3.select(this).raise().classed("active", true);
+            d.highlighted = true;
+            updateTable();
         }
 
         function dragged(d) {
@@ -224,14 +232,15 @@ document.addEventListener("DOMContentLoaded", function(){
             let i = peopleData.findIndex(p => p.FirstName === d.FirstName);
             peopleData[i].placed = false;
             draggedNode.classed("active", false);
-            updateTable();
-
+            
             if (draggedNode.classed("snapped")) {
                 peopleData[i].x = d.x;
                 peopleData[i].y = d.y;
                 peopleData[i].placed = true;
                 console.log(peopleData, d);
             } 
+            d.highlighted = false;
+            updateTable();
         }
 
 
@@ -305,31 +314,37 @@ document.addEventListener("DOMContentLoaded", function(){
             rows = table
                 .select("tbody")
                 .selectAll("tr")
-                .data(peopleData)
+                .data(peopleData);
             
             rowsEl = rows
                 .enter()
                 .append("tr")
-                .merge(rows);
-
-            rowsEl
                 .attr("data-row", d => d.FirstName)
                 .attr("data-who", d=>d.FirstName)
-                .on('click', addPersonToMap)
+                
+                .on('click', togglePersonOnMap)
                 // .on('mousedown', highlightPerson)
                 // .on('mouseup', unhighlightPerson)
                 .on('mouseover', highlightPerson)
                 .on('mouseout', unhighlightPerson)
                 .on("contextmenu", removePersonFromMap)
+
+            let rowMerge = rowsEl.merge(rows);
+            rowMerge.classed("highlighted", d=>d.highlighted)
+
+            let rowContent = rowMerge
                 .selectAll("td")
                 .data((d) => {
                     return titles.map((k) =>({ value: d[k], colName: k }) );
-                })
-                .enter()
+                });
+
+            rowContent.enter()
                 .append("td")
                 .attr("data-th", d => d.colName)
+                .merge(rowContent)
                 .text(d => d.value);
-            rows.exit().remove();
+            
+                rows.exit().remove();
             // made, now update
             
             /*
@@ -359,7 +374,8 @@ document.addEventListener("DOMContentLoaded", function(){
                 this.className = "des"; // adds arrow
             }
             
-            rowsEl.sort(function(a, b){
+            var rowsEl1 = rowsEl.merge(rows);
+            rowsEl1.sort(function(a, b){
                 var nameA= Number.isInteger(a[d]) ? a[d] : a[d].toLowerCase();
                 var nameB= Number.isInteger(b[d]) ? b[d] : b[d].toLowerCase();
                 if (nameA < nameB) //sort string ascending
@@ -384,20 +400,30 @@ document.addEventListener("DOMContentLoaded", function(){
             updateTable();
             redrawHulls();
         }
+
+        function togglePersonOnMap(d, i) {
+            peopleData[i].onMap = !peopleData[i].onMap;
+            drawPeople();
+            updateTable();
+            redrawHulls();
+        }
+
         function removePersonFromMap(d, i) {
             d3.event.preventDefault();
            // react on right-clicking
             peopleData[i].onMap = false;
-            drawPeople();
+            // drawPeople();
             updateTable();
             redrawHulls();
         }
     
 
         function drawPeople() {
-            people.exit().remove();
+            let peopleOnMap = peopleData.filter(p => p.onMap == true);
+            let people = peopleLayer.selectAll("g.person")
+            .data(peopleOnMap, p => p.id );
 
-            people.enter().append("g")
+            people.enter().append('g')
                 .attr('transform', d => `translate(${d.x}, ${d.y})`)
                 .classed("person", true)
                 .classed("focused", p => p.highlighted)
@@ -414,7 +440,7 @@ document.addEventListener("DOMContentLoaded", function(){
                 .append("circle")
                 .classed("person-dot", true)
                 .attr("r", radius)
-                .style("fill", (d, i) => color(i))
+                .style("fill", (d, i) => color(d.id))
               .select(function() { return this.parentNode; })
                 .append("text")
                 .classed("person-label", true)
@@ -429,12 +455,14 @@ document.addEventListener("DOMContentLoaded", function(){
             people.select(".person-dot")
                 .classed("person-dot", true)
                 .attr("r", radius)
-                .style("fill", (d, i) => color(i));
+                .style("fill", (d, i) => color(d.id));
             
             people.select(".person-label")
                 .classed("person-label", true)
                 .attr("text-anchor", "middle")
                 .text((d) => d.displayName);
+
+            people.exit().remove();
 
     
            
