@@ -47,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function(){
         let height = +svg.attr("height");
         let transform = d3.zoomIdentity;
         let radius = 500;
+        let flipMapY = true;
 
         let snapPoints = furniture_instance_metadata.map((s) => {
             console.log(s);
@@ -164,6 +165,17 @@ document.addEventListener("DOMContentLoaded", function(){
                 .attr("xlink:href",`#${tidyName(f.Type.family)}`)
         });
 
+        let peopleFlipAdjust = "";
+        if (flipMapY) {
+            analyticsLayer.attr("transform", "scale(1, -1)");
+            analyticsLayer.attr("transform-origin", "center");
+            backgroundLayer.attr("transform", "scale(1, -1)");
+            backgroundLayer.attr("transform-origin", "center");
+            peopleLayer.attr("transform", "scale(1, -1)");
+            peopleLayer.attr("transform-origin", "center");
+            peopleFlipAdjust = "scale(1, -1)";
+        }
+
         let peopleOnMap = peopleData.filter(p => p.onMap == true);
         let people = peopleLayer.selectAll("g.person")
             .data(peopleOnMap, p => p.id );
@@ -186,6 +198,8 @@ document.addEventListener("DOMContentLoaded", function(){
         function zoomed() {
             g.attr("transform", d3.event.transform);
         }
+
+        
 
         function distance(a, b) {
             return Math.sqrt( Math.pow(( a.x - b.x ), 2) + 
@@ -220,7 +234,7 @@ document.addEventListener("DOMContentLoaded", function(){
             }
 
             function drag_node(me, pt) {
-                d3.select(me).attr('transform', `translate(${pt.x}, ${pt.y})`);                
+                d3.select(me).attr('transform', `translate(${pt.x}, ${pt.y}) ${peopleFlipAdjust}`);                
             }
 
             redrawHulls();
@@ -424,7 +438,7 @@ document.addEventListener("DOMContentLoaded", function(){
             .data(peopleOnMap, p => p.id );
 
             people.enter().append('g')
-                .attr('transform', d => `translate(${d.x}, ${d.y})`)
+                .attr('transform', d => `translate(${d.x}, ${d.y}) ${peopleFlipAdjust}`)
                 .classed("person", true)
                 .classed("focused", p => p.highlighted)
                 .classed("offMap", p => !p.onMap)
