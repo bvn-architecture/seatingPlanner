@@ -48,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function(){
         let transform = d3.zoomIdentity;
         let radius = 500;
         let flipMapY = true;
+        let sortField;
 
         let snapPoints = furniture_instance_metadata.map((s) => {
             console.log(s);
@@ -132,6 +133,18 @@ document.addEventListener("DOMContentLoaded", function(){
         let analyticsLayer  = g.append('g').attr('class', "analytics");
         let backgroundLayer = g.append('g').attr('class', "background");
         let peopleLayer     = g.append('g').attr('class', "people");
+        let tooltip         = svg.append('g').attr('class', "tooltip");
+
+        svg.on("mousemove", mouseMoveSvg );
+        
+
+        function mouseMoveSvg() {
+            let point = d3.mouse(this)
+            p = {x: point[0], y: point[1] };
+
+            tooltip.attr("transform", "translate(" + (p.x + 500) + "," + (p.y + -800) + ")")
+                .classed('active', true);
+        }
 
         backgroundLayer
             .selectAll("path.boundary")
@@ -158,11 +171,18 @@ document.addEventListener("DOMContentLoaded", function(){
         
         furniture_instance_metadata.map((f)=>{
             // console.log(f);
-            backgroundLayer.append("g")
-                .attr("transform",`translate(${f.Point.X}, ${f.Point.Y}) rotate(${(f.Rotation )})`)
+            let g = backgroundLayer.append("g");
+            g.attr("transform",`translate(${f.Point.X}, ${f.Point.Y}) rotate(${(f.Rotation )})`)
                 .attr("class", `${tidyName(f.Type.family)} furniture`)
                 .append("use")
-                .attr("xlink:href",`#${tidyName(f.Type.family)}`)
+                .attr("xlink:href",`#${tidyName(f.Type.family)}`);
+            
+            g.on('mouseover', e => {
+                    tooltip.append('text').text(f.Type.family);
+                })
+            g.on('mouseout', e => {
+                tooltip.html("");
+            });
         });
 
         let peopleFlipAdjust = "";
@@ -238,6 +258,7 @@ document.addEventListener("DOMContentLoaded", function(){
             }
 
             redrawHulls();
+            mouseMoveSvg.call(svg.node());
         }
 
         function dragended(d) {
@@ -292,6 +313,7 @@ document.addEventListener("DOMContentLoaded", function(){
         /*TABLE*/
 
         var sortAscending = true;
+        var sortDirection = 1;
         var table = d3.select("#page-wrap").append("table");
         var titles = d3.keys(peopleData[0]);
         var headers; 
@@ -370,35 +392,40 @@ document.addEventListener("DOMContentLoaded", function(){
                 .selectAll("td")
                 .attr("data-th", d => d.name)
                 .text(d => d.value); */
-
+            doSort();
         
         }
 
         function doSort(d) {
-            headersEl.attr("class", "header"); //reset header to no arrow
+            sortField = d ? d : sortField
+            if (sortField) {
+                headersEl.attr("class", "header"); //reset header to no arrow
 
-            var direction;
-            if (sortAscending) {
-                sortAscending = false;
-                direction = 1;
-                this.className = "aes";
-            } else {
-                sortAscending = true;
-                direction = -1;
-                this.className = "des"; // adds arrow
+                if (d) {
+                    if (sortAscending) {
+                        sortAscending = false;
+                        sortDirection = 1;
+                        this.className = "aes";
+                    } else {
+                        sortAscending = true;
+                        sortDirection = -1;
+                        this.className = "des"; // adds arrow
+                    }
+                }
+                
+                var rowsEl1 = rowsEl.merge(rows);
+                rowsEl1.sort(function(a, b){
+                    var nameA= !isNaN(a[sortField]) ? a[sortField] : a[sortField].toLowerCase();
+                    var nameB= !isNaN(b[sortField]) ? b[sortField] : b[sortField].toLowerCase();
+                    if (nameA < nameB) //sort string ascending
+                        return -1 * sortDirection;
+                    if (nameA > nameB)
+                        return 1 * sortDirection;
+                    return 0; //default return value (no sorting)
+                });
+            // updateTable();
             }
             
-            var rowsEl1 = rowsEl.merge(rows);
-            rowsEl1.sort(function(a, b){
-                var nameA= Number.isInteger(a[d]) ? a[d] : a[d].toLowerCase();
-                var nameB= Number.isInteger(b[d]) ? b[d] : b[d].toLowerCase();
-                if (nameA < nameB) //sort string ascending
-                    return -1 * direction;
-                if (nameA > nameB)
-                    return 1 * direction;
-                return 0; //default return value (no sorting)
-            });
-            // updateTable();
         }
 
 
