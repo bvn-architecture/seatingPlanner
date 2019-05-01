@@ -7,18 +7,30 @@ document.addEventListener("DOMContentLoaded", function() {
 
     d3.json("data/furniture_instance_metadata.json"),
 
-    d3.json("data/Family Architypes/127cm (52inch).json"),
-    d3.json("data/Family Architypes/1500X780.json"),
-    d3.json("data/Family Architypes/2250x1800mm Orange.json"),
-    d3.json("data/Family Architypes/828x400mm.json"),
-    d3.json("data/Family Architypes/Dining Table 1500x1500.json"),
-    d3.json("data/Family Architypes/Leda_InvisiII_Inwall_Suite.json"),
-    d3.json("data/Family Architypes/NR1.json"),
-    d3.json("data/Family Architypes/NS1.json"),
-    d3.json("data/Family Architypes/Stool_Stylecraft_Capdell_FUR.json"),
+    // a
+    d3.json("data/FamilyArchitypes/Pedestal_FUR_500W x 830H x 800D.json"),
+    // b
     d3.json(
-      "data/Family Architypes/Workstation_1 Person_BVN_New_Adjustable.json"
-    )
+      "data/FamilyArchitypes/Stool_Stylecraft_Capdell_FUR_420Wx360Hx420D.json"
+    ),
+    // c
+    d3.json(
+      "data/FamilyArchitypes/Table_Square_Schiavello_Laminex Commercial_FUR_1200W x 900H x 1200D.json"
+    ),
+    // d
+    d3.json(
+      "data/FamilyArchitypes/White Board_Mobile_FUR_960-1015W x 1860H.json"
+    ),
+    // e
+    d3.json(
+      "data/FamilyArchitypes/Workstation_1P_BVN_Adjustable_FYS_2PC_1500W x 700D x 900H.json"
+    ),
+    // f
+    d3.json(
+      "data/FamilyArchitypes/Workstation_1P_Corner_New_FYS_1500X730.json"
+    ),
+    // g
+    d3.json("data/FamilyArchitypes/Workstation_1P_Corner_New_FYS_1500X780.json")
   ]).then(
     ([
       peopleData,
@@ -33,10 +45,10 @@ document.addEventListener("DOMContentLoaded", function() {
       furn_d,
       furn_e,
       furn_f,
-      furn_g,
-      furn_h,
-      furn_i,
-      furn_j
+      furn_g
+      //   furn_h,
+      //   furn_i,
+      //   furn_j
     ]) => {
       console.log("all, as promised", [
         peopleData,
