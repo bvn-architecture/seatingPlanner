@@ -1,0 +1,27 @@
+{
+  "Family": "Table_Square_Schiavello_Laminex Commercial_FUR",
+  "Family Type": "1200W x 900H x 1200D",
+  "loopVertices": [
+    {
+      "Y": 600,
+      "X": -600,
+      "Z": 0
+    },
+    {
+      "Y": 600,
+      "X": 600,
+      "Z": 0
+    },
+    {
+      "Y": -600,
+      "X": 600,
+      "Z": 0
+    },
+    {
+      "Y": -600,
+      "X": -600,
+      "Z": 0
+    }
+  ],
+  "dumpDateUTC": "2019-05-01T05:40:21.087"
+}
