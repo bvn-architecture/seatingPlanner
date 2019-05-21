@@ -50,6 +50,18 @@ document.addEventListener("DOMContentLoaded", function() {
       //   furn_i,
       //   furn_j
     ]) => {
+      let furniture_outlines = [
+        furn_a,
+        furn_b,
+        furn_c,
+        furn_d,
+        furn_e,
+        furn_f,
+        furn_g
+        // furn_h,
+        // furn_i,
+        // furn_j
+      ];
       console.log("all, as promised", [
         peopleData,
         boundaries,
@@ -57,16 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         furniture_instance_metadata,
 
-        furn_a,
-        furn_b,
-        furn_c,
-        furn_d,
-        furn_e,
-        furn_f,
-        furn_g,
-        furn_h,
-        furn_i,
-        furn_j
+        furniture_outlines
       ]);
 
       // Cut the data down to just A people so that it's easier to work with
@@ -129,18 +132,6 @@ document.addEventListener("DOMContentLoaded", function() {
       //     .domain([0, 1]) // input
       //     .range([height, 0]); // output
 
-      let furniture_outlines = [
-        furn_a,
-        furn_b,
-        furn_c,
-        furn_d,
-        furn_e,
-        furn_f,
-        furn_g,
-        furn_h,
-        furn_i,
-        furn_j
-      ];
       // 0:
       // Family: "Television_Flat_All Sizes_EEQ"
       // Family Type: "127cm (52inch)"
