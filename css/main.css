@@ -10,12 +10,12 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css?family=Kumar+One+Outline|Noto+Serif');
+@import url("https://fonts.googleapis.com/css?family=Kumar+One+Outline|Noto+Serif");
 
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 /*
@@ -29,13 +29,13 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 /*
@@ -43,12 +43,12 @@ html {
  */
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 /*
@@ -63,7 +63,7 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 /*
@@ -71,9 +71,9 @@ video {
  */
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*
@@ -81,7 +81,7 @@ fieldset {
  */
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 /* ==========================================================================
@@ -89,110 +89,115 @@ textarea {
    ========================================================================== */
 
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
+table {
+  display: none;
+}
+
 .table-wrapper {
-    display: inline-block;
-    /* height: 40em; */
-    width: 40em;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    height: 30%;
-    width: 100%;
-    overflow: auto;
+  display: inline-block;
+  /* height: 40em; */
+  width: 40em;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  height: 30%;
+  width: 100%;
+  overflow: auto;
 }
 
 svg.bubbles {
-    vertical-align: top;
+  vertical-align: top;
 }
 g.offMap {
-    visibility: hidden;
+  visibility: hidden;
 }
 g.person {
-    cursor: pointer;
+  cursor: pointer;
 }
 circle.person-handle {
-    fill: hsla(208, 100%, 97%, 0.1);
+  fill: hsla(208, 100%, 97%, 0.1);
 }
 circle.person-dot {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 .active .person-handle {
-    fill: rgba(255, 0, 0, 0.25);
+  fill: rgba(255, 0, 0, 0.25);
 }
 .snapped .person-handle {
-    stroke: green;
-    stroke-width: 40px;
+  stroke: green;
+  stroke-width: 40px;
 }
 .focused .person-handle {
-    fill: orange;
-    opacity: 1;
+  fill: orange;
+  opacity: 1;
 }
 .snapped .person-dot {
-    opacity: 0.2;
+  opacity: 0.2;
 }
 .person-label {
-    font-size: 800px;
-    font-family: blender;
+  font-size: 800px;
+  font-family: blender;
 }
 
 .furniture {
-    fill: aliceblue;
-    stroke: black;
-    stroke-width: 10;
+  fill: aliceblue;
+  stroke: black;
+  stroke-width: 10;
 }
 path.perimeter {
-    fill: none;
-    stroke: black;
-    stroke-width: 40px;
+  fill: none;
+  stroke: black;
+  stroke-width: 40px;
 }
 
 /*HULL*/
 .hull {
-    fill: hsla(208, 100%, 50%);
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke: hsla(208, 100%, 50%);
-    opacity: 0.15;
-    stroke-width: 1400;
+  fill: hsla(208, 100%, 50%);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: hsla(208, 100%, 50%);
+  opacity: 0.15;
+  stroke-width: 1400;
 }
 
-table { 
-    width: 100%; 
-    border-collapse: collapse; 
-    cursor: pointer;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  cursor: pointer;
 }
 /* Zebra striping */
-tr:nth-of-type(odd) { 
-    background: #eee; 
+tr:nth-of-type(odd) {
+  background: #eee;
 }
-tr:nth-of-type(even) { 
-    background: #fff; 
+tr:nth-of-type(even) {
+  background: #fff;
 }
-tr.highlighted{
-    border: 3px solid lightskyblue;
+tr.highlighted {
+  border: 3px solid lightskyblue;
 }
-th { 
-    background: #333; 
-    color: white; 
-    font-weight: bold; 
-    /* cursor: s-resize; */
-    background-repeat: no-repeat;
-    background-position: 3% center;
+th {
+  background: #333;
+  color: white;
+  font-weight: bold;
+  /* cursor: s-resize; */
+  background-repeat: no-repeat;
+  background-position: 3% center;
 }
-td, th { 
-    padding: 2px 6px;
-    border: 1px solid #ccc; 
-    text-align: left; 
+td,
+th {
+  padding: 2px 6px;
+  border: 1px solid #ccc;
+  text-align: left;
 }
 
 th.des:after {
@@ -203,55 +208,57 @@ th.aes:after {
   content: "\21E7";
 }
 
-
-
 .boundary {
-    fill: hsla(240, 100%, 50%, 0.1);
+  fill: hsla(240, 100%, 50%, 0.1);
 }
-
 
 body.docs {
-    margin: auto;
-    width: 50vw;
-    min-width: 30em;
+  margin: auto;
+  width: 50vw;
+  min-width: 30em;
 }
-body.docs, body.docs li {
-    font-size: 21px;
-    line-height: 1.5;
+body.docs,
+body.docs li {
+  font-size: 21px;
+  line-height: 1.5;
 }
 body.docs h1,
 body.docs h2,
 body.docs h3,
 body.docs h4 {
-    font-family: 'Kumar One Outline', cursive;
+  font-family: "Kumar One Outline", cursive;
 }
 
-body.docs h1 { font-size: 6rem; }
-body.docs h2 { font-size: 3rem; }
-body.docs h3 { font-size: 2rem; }
-body.docs h4 { font-size: 1rem; }
+body.docs h1 {
+  font-size: 6rem;
+}
+body.docs h2 {
+  font-size: 3rem;
+}
+body.docs h3 {
+  font-size: 2rem;
+}
+body.docs h4 {
+  font-size: 1rem;
+}
 
-body.docs p, body.docs li  {
-    font-family: 'Noto Serif', serif;
+body.docs p,
+body.docs li {
+  font-family: "Noto Serif", serif;
 }
 body.docs li {
-    padding-right: 10em;
-    margin-block-end: 1em;
+  padding-right: 10em;
+  margin-block-end: 1em;
 }
 
 body.docs img.side {
-    float: right;
-    max-width: 50%;
+  float: right;
+  max-width: 50%;
 }
 body.docs li img {
-    display: block;
-    max-width: 25vw;
+  display: block;
+  max-width: 25vw;
 }
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
@@ -262,7 +269,7 @@ body.docs li img {
  */
 
 .hidden {
-    display: none !important;
+  display: none !important;
 }
 
 /*
@@ -275,15 +282,15 @@ body.docs li img {
  */
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-    white-space: nowrap; /* 1 */
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; /* 1 */
 }
 
 /*
@@ -294,13 +301,13 @@ body.docs li img {
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-    white-space: inherit;
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+  white-space: inherit;
 }
 
 /*
@@ -308,7 +315,7 @@ body.docs li img {
  */
 
 .invisible {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 /*
@@ -325,12 +332,12 @@ body.docs li img {
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+  content: " "; /* 1 */
+  display: table; /* 2 */
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /* ==========================================================================
@@ -340,14 +347,14 @@ body.docs li img {
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+  /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
@@ -357,88 +364,96 @@ body.docs li img {
    ========================================================================== */
 
 @media print {
-    @page {
-        margin-top: 20mm;
-        margin-bottom: 20mm;
-        margin-left: 20mm;
-        margin-right: 20mm;
-     }
-    body.docs, body.docs li {
-        font-size: 14px;
-        /* width: calc(100% - 40mm); */
-        width: 100%;
-    }
-    body.docs h1 { font-size: 3rem; }
-    body.docs h2 { font-size: 1.5rem; }
-    body.docs h3 { font-size: 1.2rem; }
-    body.docs h4 { font-size: 1rem; }
+  @page {
+    margin-top: 20mm;
+    margin-bottom: 20mm;
+    margin-left: 20mm;
+    margin-right: 20mm;
+  }
+  body.docs,
+  body.docs li {
+    font-size: 14px;
+    /* width: calc(100% - 40mm); */
+    width: 100%;
+  }
+  body.docs h1 {
+    font-size: 3rem;
+  }
+  body.docs h2 {
+    font-size: 1.5rem;
+  }
+  body.docs h3 {
+    font-size: 1.2rem;
+  }
+  body.docs h4 {
+    font-size: 1rem;
+  }
 
-
-    *,
-    *:before,
-    *:after {
-        /* background: transparent !important;
+  *,
+  *:before,
+  *:after {
+    /* background: transparent !important;
         color: #000 !important; */ /* Black prints faster */
-        /* -webkit-box-shadow: none !important;
+    /* -webkit-box-shadow: none !important;
         box-shadow: none !important;
         text-shadow: none !important; */
-    }
+  }
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
 
-    /*
+  /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
 
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
 
-    pre {
-        white-space: pre-wrap !important;
-    }
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+  pre {
+    white-space: pre-wrap !important;
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
 
-    /*
+  /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
 
-    thead {
-        display: table-header-group;
-    }
+  thead {
+    display: table-header-group;
+  }
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
 
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
 
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
 }
