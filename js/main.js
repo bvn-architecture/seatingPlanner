@@ -1,5 +1,6 @@
 /*jshint esversion: 6 */
 document.addEventListener("DOMContentLoaded", function() {
+  const fam = "data/FamilyArchitypes";
   Promise.all([
     d3.json("data/peopleData.json"),
     d3.json("data/boundary_points.json"),
@@ -7,30 +8,25 @@ document.addEventListener("DOMContentLoaded", function() {
 
     d3.json("data/furniture_instance_metadata.json"),
 
-    // a
-    d3.json("data/FamilyArchitypes/Pedestal_FUR_500W x 830H x 800D.json"),
-    // b
+    /* a */
+    d3.json(fam + "/Pedestal_FUR_500W x 830H x 800D.json"),
+    /* b */
+    d3.json(fam + "/Stool_Stylecraft_Capdell_FUR_420Wx360Hx420D.json"),
+    /* c */
     d3.json(
-      "data/FamilyArchitypes/Stool_Stylecraft_Capdell_FUR_420Wx360Hx420D.json"
+      fam +
+        "/Table_Square_Schiavello_Laminex Commercial_FUR_1200W x 900H x 1200D.json"
     ),
-    // c
+    /* d */
+    d3.json(fam + "/White Board_Mobile_FUR_960-1015W x 1860H.json"),
+    /* e */
     d3.json(
-      "data/FamilyArchitypes/Table_Square_Schiavello_Laminex Commercial_FUR_1200W x 900H x 1200D.json"
+      fam + "/Workstation_1P_BVN_Adjustable_FYS_2PC_1500W x 700D x 900H.json"
     ),
-    // d
-    d3.json(
-      "data/FamilyArchitypes/White Board_Mobile_FUR_960-1015W x 1860H.json"
-    ),
-    // e
-    d3.json(
-      "data/FamilyArchitypes/Workstation_1P_BVN_Adjustable_FYS_2PC_1500W x 700D x 900H.json"
-    ),
-    // f
-    d3.json(
-      "data/FamilyArchitypes/Workstation_1P_Corner_New_FYS_1500X730.json"
-    ),
-    // g
-    d3.json("data/FamilyArchitypes/Workstation_1P_Corner_New_FYS_1500X780.json")
+    /* f */
+    d3.json(fam + "/Workstation_1P_Corner_New_FYS_1500X730.json"),
+    /* g */
+    d3.json(fam + "/Workstation_1P_Corner_New_FYS_1500X780.json")
   ]).then(
     ([
       peopleData,
@@ -146,6 +142,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }
       var defs = svg.append("defs");
       furniture_outlines.map(f => {
+        console.log(f);
         defs
           .selectAll("path.boundary")
           .data(f.loopVertices)
