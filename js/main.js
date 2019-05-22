@@ -140,20 +140,17 @@ document.addEventListener("DOMContentLoaded", function() {
           return "";
         }
       }
-      var defs = svg.append("defs");
-      furniture_outlines.map(f => {
-        console.log(f);
-        defs
-          .selectAll("path.boundary")
-          .data(f.loopVertices)
-          .enter()
-          .append("path")
-          .attr("id", tidyName(f.Family))
-          .attr("d", d => {
-            let xyPairs = d.map(c => `${c.X},${c.Y}`);
-            return "M" + xyPairs.join("L") + "Z";
-          });
-      });
+      let defs = svg.append("defs");
+      defs
+        .selectAll("path.boundary")
+        .data(furniture_outlines)
+        .enter()
+        .append("path")
+        .attr("id", d => tidyName(d.Family))
+        .attr("d", d => {
+          let xyPairs = d.loopVertices.map(c => `${c.X},${c.Y}`);
+          return "M" + xyPairs.join("L") + "Z";
+        });
 
       let g = svg.append("g");
       //.attr("transform", "translate(-20002.178465455894,4353.975785950301) scale(0.596946475280263)"); // TODO: make this dynamic
