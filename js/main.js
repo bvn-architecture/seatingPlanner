@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function() {
       let flipMapY = true;
 
       let snapPoints = furniture_instance_metadata.map(s => {
-        console.log(s);
+        // console.log(s);
         if (s.Type.family.includes("Workstation")) {
           let p = { x: s.Point.X, y: s.Point.Y };
           return p;
