@@ -331,7 +331,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
       var sortAscending = true;
       var table = d3.select("#page-wrap").append("table");
-      var titles = d3.keys(peopleData[0]);
+      var columnsToShow = ["FirstName", "LastName", "studio", "team"];
+      // var titles = d3.keys(peopleData[0]);
+      var titles = columnsToShow;
       var headers;
       var headersEl;
       var rows;
@@ -346,7 +348,7 @@ document.addEventListener("DOMContentLoaded", function() {
         headers = table
           .select("thead tr")
           .selectAll("th")
-          .data(titles);
+          .data(columnsToShow);
 
         headersEl = headers
           .enter()
