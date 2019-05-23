@@ -98,17 +98,17 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+svg {
+  height: 100vh;
+  width: 69%;
+}
 
 .table-wrapper {
     display: inline-block;
-    /* height: 40em; */
-    width: 40em;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    height: 30%;
-    width: 100%;
+  width: 30%;
     overflow: auto;
+  height: 100vh;
+  overflow: auto;
 }
 
 svg.bubbles {
