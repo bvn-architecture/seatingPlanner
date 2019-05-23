@@ -74,6 +74,21 @@ document.addEventListener("DOMContentLoaded", function() {
         peopleData[index].id = index;
       });
 
+      function rotatePoint(point, centre, angle) {
+        angle = (angle * (Math.PI / 180)) % Math.PI; // Convert to radians
+        const rotatedX =
+          Math.cos(angle) * (point.x - centre.x) -
+          Math.sin(angle) * (point.y - centre.y) +
+          centre.x;
+
+        const rotatedY =
+          Math.sin(angle) * (point.x - centre.x) +
+          Math.cos(angle) * (point.y - centre.y) +
+          centre.y;
+        const newP = { x: rotatedX, y: rotatedY };
+        return newP;
+      }
+
       let svg = d3.select("svg");
       let width = +svg.attr("width");
       let height = +svg.attr("height");
@@ -82,10 +97,18 @@ document.addEventListener("DOMContentLoaded", function() {
       let flipMapY = true;
 
       let snapPoints = furniture_instance_metadata.map(s => {
-        // console.log(s);
         if (s.Type.family.includes("Workstation")) {
-          let p = { x: s.Point.X, y: s.Point.Y };
-          return p;
+          const centre = { x: s.Point.X, y: s.Point.Y };
+          const point = { x: centre.x, y: centre.y + 500 };
+          const angle = 360 - s.Rotation; //TODO check if this should be 360-s.Rotation
+          const rotatedPoint = rotatePoint(point, centre, angle);
+          const compoundPoint = {
+            x: rotatedPoint.x,
+            y: rotatedPoint.y,
+            insertionX: centre.x,
+            insertionY: centre.y
+          };
+          return compoundPoint;
         }
       });
       snapPoints = snapPoints.filter(x => x != undefined);
@@ -217,11 +240,19 @@ document.addEventListener("DOMContentLoaded", function() {
         .selectAll(".desk")
         .data(snapPoints)
         .enter()
-        .append("circle")
-        .attr("cx", d => d.x)
-        .attr("cy", d => d.y)
-        .attr("r", radius / 4)
-        .style("fill", (d, i) => color(i));
+        .append("line")
+        .attr("x1", d => d.x)
+        .attr("y1", d => d.y)
+        .attr("x2", d => d.insertionX)
+        .attr("y2", d => d.insertionY)
+        .attr("class", "deskLine")
+        .style("stroke-width", "20px")
+        .style("stroke", "black"); //TODO change this back to circles once the desks are in.
+      // .append("circle")
+      // .attr("cx", d => d.x)
+      // .attr("cy", d => d.y)
+      // .attr("r", radius / 4)
+      // .style("fill", (d, i) => color(i));
 
       svg.call(
         d3
