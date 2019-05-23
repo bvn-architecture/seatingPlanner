@@ -142,20 +142,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
       let color = d3.scaleOrdinal().range(d3.schemeAccent);
 
-      // TODO: implement a scale to flip the map
-      // var xScale = d3.scaleLinear()
-      //     .domain([0, n-1]) // input
-      //     .range([0, width]); // output
-
-      // var yScale = d3.scaleLinear()
-      //     .domain([0, 1]) // input
-      //     .range([height, 0]); // output
-
-      // 0:
-      // Family: "Television_Flat_All Sizes_EEQ"
-      // Family Type: "127cm (52inch)"
-      // dumpDateUTC: "2018-12-05T06:25:01.302"
-      // loopVertices: [Array(8)]
       function tidyName(s) {
         if (s != undefined) {
           return s.trim().replace(/\s+/gi, "_");
@@ -176,8 +162,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
       let g = svg.append("g");
-      //.attr("transform", "translate(-20002.178465455894,4353.975785950301) scale(0.596946475280263)"); // TODO: make this dynamic
-      //d3.zoomIdentity.translate(200, 0).scale(1);
 
       let analyticsLayer = g.append("g").attr("class", "analytics");
       let backgroundLayer = g.append("g").attr("class", "background");
@@ -254,12 +238,7 @@ document.addEventListener("DOMContentLoaded", function() {
       // .attr("r", radius / 4)
       // .style("fill", (d, i) => color(i));
 
-      svg.call(
-        d3
-          .zoom()
-          //.scaleExtent([0.0165, 10])
-          .on("zoom", zoomed)
-      );
+      svg.call(d3.zoom().on("zoom", zoomed));
       function zoomed() {
         g.attr("transform", d3.event.transform);
       }
@@ -278,7 +257,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
       function dragged(d) {
         /* calculate the distances off the pointer, not the element. 
-                If you use the element then snaps become irreversable. */
+           If you use the element then snaps become irreversable. */
         let distances = snapPoints.map(sp => ({
           snapPt: sp,
           distance: distance(d3.event, sp)
