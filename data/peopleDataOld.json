@@ -1,0 +1,2772 @@
+[
+	{
+		"FirstName": "Abbie",
+		"LastName": "Galvin",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Abbie",
+		"LastName": "Lewis",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Adam",
+		"LastName": "Hetherington",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Adlia",
+		"LastName": "Amin",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Adrian",
+		"LastName": "Mignot",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Aiden",
+		"LastName": "Ray",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Alan",
+		"LastName": "Monckton-Milnes",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Alessandra",
+		"LastName": "Moschella",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Alex",
+		"LastName": "Chaston",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Alex",
+		"LastName": "Harrington",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Alex",
+		"LastName": "Hoang",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Alfred",
+		"LastName": "LaSpina",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Ali",
+		"LastName": "Bounds",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Alice",
+		"LastName": "Mao",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Amanda",
+		"LastName": "Robinson",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Amanda",
+		"LastName": "Tenn",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Amelia",
+		"LastName": "Lipa",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Andre",
+		"LastName": "Callanan",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Andrew",
+		"LastName": "Buchanan",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Andrew",
+		"LastName": "Ferguson",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Andrew",
+		"LastName": "Godwin",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Andrew",
+		"LastName": "Mehr",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Anna",
+		"LastName": "Jean Pierre",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Anna",
+		"LastName": "Sulsters",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Annisa",
+		"LastName": "Rizal",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Anton",
+		"LastName": "Kouzmin",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Asher",
+		"LastName": "Galvin",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Ayelen",
+		"LastName": "Moure",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Baptiste",
+		"LastName": "Higgs",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Barry",
+		"LastName": "Cantor",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Barry",
+		"LastName": "Dineen",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Belinda",
+		"LastName": "McGrath",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Bella",
+		"LastName": "Castle",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Ben",
+		"LastName": "Doherty",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Benita",
+		"LastName": "Chen",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Bernard",
+		"LastName": "Whitcher",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Beverley",
+		"LastName": "Charmer",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Bill",
+		"LastName": "Dowzer",
+		"Studio": "New York",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Brendan",
+		"LastName": "Doherty",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Brian",
+		"LastName": "Clohessy",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Brian",
+		"LastName": "Donovan",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Brian",
+		"LastName": "Steele",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Brian",
+		"LastName": "Wong",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Bridget",
+		"LastName": "Tighe",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Bronte",
+		"LastName": "Doherty",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Byron",
+		"LastName": "Sullivan",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Camila",
+		"LastName": "Beltran",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Catherine",
+		"LastName": "Skinner",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Celeste",
+		"LastName": "Norman",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Charlie",
+		"LastName": "Fanniere",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Charmaine",
+		"LastName": "Chan",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Chloe",
+		"LastName": "Henry-Jones",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Chris",
+		"LastName": "Bickerton",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Ciaran",
+		"LastName": "Durney",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Clarrie",
+		"LastName": "Morabito",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Clio",
+		"LastName": "Astridge",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Connor",
+		"LastName": "Badenko",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Conor",
+		"LastName": "Larkins",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Craig",
+		"LastName": "Burns",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Craig",
+		"LastName": "Gerrard",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Daisy",
+		"LastName": "Szakaly",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Damian",
+		"LastName": "Eckersley",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Dan",
+		"LastName": "Rumery",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Daniel",
+		"LastName": "Cruddace",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Daniel",
+		"LastName": "Londono",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Danika",
+		"LastName": "Nixon",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Dave",
+		"LastName": "Martinez",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "David",
+		"LastName": "Gray",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "David",
+		"LastName": "Kelly",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Debbie",
+		"LastName": "Nicholls",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Delia",
+		"LastName": "Ngay",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Dilon",
+		"LastName": "Wong",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Dominic",
+		"LastName": "Hawton",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Doug",
+		"LastName": "Hastie",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Duncan",
+		"LastName": "Moore",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Elena",
+		"LastName": "Bonanni",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Elle",
+		"LastName": "Trevorrow",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Ellie",
+		"LastName": "Park",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Elynda",
+		"LastName": "Naru",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Eric",
+		"LastName": "Yeoh",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Erik",
+		"LastName": "Deleporte",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Erika",
+		"LastName": "Halim",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Farbod",
+		"LastName": "Fathalipouri",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Felix",
+		"LastName": "Saw",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Fiona",
+		"LastName": "Long",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Gary",
+		"LastName": "Cai",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Geoff",
+		"LastName": "Cooke",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Geoff",
+		"LastName": "Hehir",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Gianluca",
+		"LastName": "Gennari",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Glen",
+		"LastName": "Millar",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Glenn",
+		"LastName": "Bliesner",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Guy",
+		"LastName": "Hanson",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Haydn",
+		"LastName": "Davies",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Hayley",
+		"LastName": "Sainsbury",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Heather",
+		"LastName": "McCabe",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Hector",
+		"LastName": "Barrientos",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Hew",
+		"LastName": "Roberts",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Ian",
+		"LastName": "Fung",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Ian",
+		"LastName": "Goodbury",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Ian",
+		"LastName": "James",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Ian",
+		"LastName": "Kirkland",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Isabell",
+		"LastName": "Beck",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Isabella",
+		"LastName": "Aliberti",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Isabella",
+		"LastName": "Reynolds",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Ishaan",
+		"LastName": "Varshney",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Ivan",
+		"LastName": "Tejada Navajas",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Jacqui",
+		"LastName": "Vicario",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Jaime",
+		"LastName": "Gonzalez",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Jakob",
+		"LastName": "Brainerd",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "James",
+		"LastName": "Graham",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "James",
+		"LastName": "Grose",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "James",
+		"LastName": "Paviour",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Jamie",
+		"LastName": "Don",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Jamie",
+		"LastName": "Yoo",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Jan",
+		"LastName": "Christel",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Jared",
+		"LastName": "Bird",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Jarrod",
+		"LastName": "Williams",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Jennifer",
+		"LastName": "Dodson",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Jessica",
+		"LastName": "Dixon",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Jessica",
+		"LastName": "Enander",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Jessica",
+		"LastName": "Farrell",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Jessica",
+		"LastName": "Smith",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Jill",
+		"LastName": "Hall",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Joanna",
+		"LastName": "Newton",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Joanne",
+		"LastName": "Yong",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "John",
+		"LastName": "Walsh",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Jolene",
+		"LastName": "Krieger",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Jon",
+		"LastName": "Florence",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Joseph",
+		"LastName": "O'Meara",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Josephine",
+		"LastName": "Phillips",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Juan Pablo",
+		"LastName": "Benavides Cardenas",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Juan",
+		"LastName": "Salazar Jaramillo",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Julia",
+		"LastName": "Goode",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Julian",
+		"LastName": "Ashton",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Julie",
+		"LastName": "Wong",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Julio",
+		"LastName": "Garcia Pizarro",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Justin",
+		"LastName": "Lo",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Kae",
+		"LastName": "Martin",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Kate",
+		"LastName": "Campbell",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Kate",
+		"LastName": "O'Mullane",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Katherine",
+		"LastName": "Wiedersehn",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Katherine",
+		"LastName": "Withnell",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Kathy",
+		"LastName": "Hansen",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Kathy",
+		"LastName": "Udeh",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Katie",
+		"LastName": "Love",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Katrina",
+		"LastName": "Robinson",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Kellie",
+		"LastName": "Newman",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Kelsi",
+		"LastName": "Goan",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Kevin",
+		"LastName": "Murphy",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Kevin",
+		"LastName": "O'Brien",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Kim",
+		"LastName": "Small",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Kirsten",
+		"LastName": "Karst",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Kirstie",
+		"LastName": "Irwin",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Knut",
+		"LastName": "Menden",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Kristin",
+		"LastName": "Cox",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Kristy",
+		"LastName": "Weir",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Lamees",
+		"LastName": "Hawari",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Laura",
+		"LastName": "Robinson",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Laurie",
+		"LastName": "Aznavoorian",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Leah",
+		"LastName": "Brown",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Leny",
+		"LastName": "Lembo",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Liam",
+		"LastName": "Croft",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Lisa",
+		"LastName": "Beetson",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Lisa",
+		"LastName": "Ellis",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Lisa",
+		"LastName": "Fathalla",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Lisa",
+		"LastName": "O'Kane",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Liuh",
+		"LastName": "Huoy Chen",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Liza",
+		"LastName": "McVinish",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Louise",
+		"LastName": "Barbour",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Louise",
+		"LastName": "Treacy",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Lucas",
+		"LastName": "Leo",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Lucy",
+		"LastName": "Rimmer",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Lulu",
+		"LastName": "Cipriani",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Marc",
+		"LastName": "Hine",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Marc",
+		"LastName": "Sirl",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Marc",
+		"LastName": "Sullivan",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Marco",
+		"LastName": "Montevecchi",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Marcos",
+		"LastName": "Camara",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Marcus",
+		"LastName": "Rigon",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Margot",
+		"LastName": "Warre",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Maria",
+		"LastName": "Guardala",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Marilena",
+		"LastName": "Hewitt",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Mark",
+		"LastName": "Grimmer",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Mark",
+		"LastName": "Power",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Marnie",
+		"LastName": "Goodman",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Martina",
+		"LastName": "Hale",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Mary",
+		"LastName": "Mangan-Streeter",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Mateusz",
+		"LastName": "Paslawski",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Mateusz",
+		"LastName": "Sum",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Matthew",
+		"LastName": "Blair",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Matthew",
+		"LastName": "Wash",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Max",
+		"LastName": "Hu",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Max",
+		"LastName": "Rampertshammer",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Max",
+		"LastName": "Rosin-Melser",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Maxwell",
+		"LastName": "Goodbury",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Mel",
+		"LastName": "Mury",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Michelle",
+		"LastName": "Farman",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Michelle",
+		"LastName": "Rehn",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Michelle",
+		"LastName": "Vassiliou",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Mitch",
+		"LastName": "Reed",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Mitchell",
+		"LastName": "Page",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Myrna",
+		"LastName": "Hughson",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Namik",
+		"LastName": "Handzic",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Natalia",
+		"LastName": "Norton",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Nathan",
+		"LastName": "Harry",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Nazgol",
+		"LastName": "Asadi",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Neil",
+		"LastName": "Carter",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Neil",
+		"LastName": "Haybittel",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Neil",
+		"LastName": "Logan",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Nicholas",
+		"LastName": "Souksamrane",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Nikita",
+		"LastName": "Notowidigdo",
+		"Studio": "New York",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Nikki",
+		"LastName": "Seeto",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Nikolas",
+		"LastName": "Strugar",
+		"Studio": "",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Ninotschka",
+		"LastName": "Titchkosky",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Patrick",
+		"LastName": "Querengasser",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Paul",
+		"LastName": "Jenkins",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Paul",
+		"LastName": "Quang",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Peta",
+		"LastName": "Hawkins",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Peter",
+		"LastName": "Clarke",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Peter",
+		"LastName": "Eedy",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Peter",
+		"LastName": "Richards",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Peter",
+		"LastName": "Titmuss",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Phil",
+		"LastName": "Tait",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Phillip",
+		"LastName": "Rossington",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Phillip",
+		"LastName": "Rowden",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Ploiphan",
+		"LastName": "Saengporm",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Rachel",
+		"LastName": "Faber",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Rachel",
+		"LastName": "Wardrobe",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Rana",
+		"LastName": "Abboud",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Rebecca",
+		"LastName": "Buffington",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Rebecca",
+		"LastName": "Qin",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Renae",
+		"LastName": "Krieger",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Renae",
+		"LastName": "Tapley",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Reza",
+		"LastName": "Hafezi Moghaddam",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Rhiannon",
+		"LastName": "Macken",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Ricardo",
+		"LastName": "Velez-Calvo",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Rob",
+		"LastName": "Vider",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Roberto",
+		"LastName": "Oliveira",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Rosa",
+		"LastName": "Cotrona",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Ruth",
+		"LastName": "Kealy",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Sally",
+		"LastName": "Campbell",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Sam",
+		"LastName": "Sexton",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Sam",
+		"LastName": "Wightley",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Sam",
+		"LastName": "Williams",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Sarah",
+		"LastName": "Betts",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Schneider",
+		"LastName": "Eliassaint",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Scott",
+		"LastName": "Bearman",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Scott",
+		"LastName": "Crichton",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Scott",
+		"LastName": "Hardcastle",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Sebastian",
+		"LastName": "Tsang",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Selina",
+		"LastName": "Qiu",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Sergio",
+		"LastName": "Sottomaior Alves",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Shalyce",
+		"LastName": "Corney",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Shanny",
+		"LastName": "Lam",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Shao",
+		"LastName": "Ing Gan",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Sharon",
+		"LastName": "Francis",
+		"Studio": "New York",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Shawnee",
+		"LastName": "Finlayson",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Simon",
+		"LastName": "Hubert",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Stella",
+		"LastName": "de Vulder",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Steve",
+		"LastName": "Foro",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Stuart",
+		"LastName": "Young",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Terry",
+		"LastName": "Braddock",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Thomas",
+		"LastName": "Rodgers",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Tim",
+		"LastName": "Crawshaw",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Tim",
+		"LastName": "Gibson",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Tobias",
+		"LastName": "Fuzi",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Tracey",
+		"LastName": "Brosnan",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Tristan",
+		"LastName": "Anlezark",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Valentine",
+		"LastName": "Steisel",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Valerie",
+		"LastName": "Saavedra Lux",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Veronika",
+		"LastName": "Janovska",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "Victoria",
+		"LastName": "Hey",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Vinay",
+		"LastName": "Bhat",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "squash"
+	},
+	{
+		"FirstName": "Wikanya",
+		"LastName": "Amornsak",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "cricket"
+	},
+	{
+		"FirstName": "William",
+		"LastName": "Cobine",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	},
+	{
+		"FirstName": "Yashan",
+		"LastName": "Chen",
+		"Studio": "Sydney",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "badminton"
+	},
+	{
+		"FirstName": "Zsolt",
+		"LastName": "Kiss",
+		"Studio": "Brisbane",
+		"x": "0",
+		"y": "0",
+		"placed": false,
+		"onMap": true,
+		"team": "kabaddi"
+	}
+]

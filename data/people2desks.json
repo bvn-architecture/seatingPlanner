@@ -1,0 +1,698 @@
+{
+  "Adam Hetherington": {
+    "random": "A1",
+    "human": "N1"
+  },
+  "Adrian Mignot": {
+    "random": "B1",
+    "human": "H1"
+  },
+  "Aiden Ray": {
+    "random": "B2",
+    "human": "X1"
+  },
+  "Alan Monckton Milnes": {
+    "random": "C1",
+    "human": "D2"
+  },
+  "Alessandra Moschella": {
+    "random": "C2",
+    "human": "V1"
+  },
+  "Alex Chaston": {
+    "random": "C3",
+    "human": "S7"
+  },
+  "Alex Harrington": {
+    "random": "C4",
+    "human": "H2"
+  },
+  "Alex Hoang": {
+    "random": "D1",
+    "human": "V2"
+  },
+  "Ali Bounds": {
+    "random": "D2",
+    "human": "L4"
+  },
+  "Alice Mao": {
+    "random": "D3",
+    "human": "G6"
+  },
+  "Amanda Tenn": {
+    "random": "D4",
+    "human": "U9"
+  },
+  "Amelia Lipa": {
+    "random": "D5",
+    "human": "U7"
+  },
+  "Andre Callanan": {
+    "random": "E1",
+    "human": "J1"
+  },
+  "Andrew Buchanan": {
+    "random": "E2",
+    "human": "F6"
+  },
+  "Andrew Ferguson": {
+    "random": "E3",
+    "human": "U11"
+  },
+  "Andrew Foster": {
+    "random": "E4",
+    "human": "H3"
+  },
+  "Andrew Mehr": {
+    "random": "E5",
+    "human": "M4"
+  },
+  "Anna Sulsters": {
+    "random": "F1",
+    "human": "I1"
+  },
+  "Annisa Rivera Rizal": {
+    "random": "F2",
+    "human": "O1"
+  },
+  "Anuja Deshpande": {
+    "random": "F3",
+    "human": "Q1"
+  },
+  "Asher Galvin": {
+    "random": "F4",
+    "human": "N2"
+  },
+  "Asher Haynes": {
+    "random": "F5",
+    "human": "U10"
+  },
+  "Ayelen Moure": {
+    "random": "F6",
+    "human": "F1"
+  },
+  "Baptise Higgs": {
+    "random": "F7",
+    "human": "X2"
+  },
+  "Barry Cantor": {
+    "random": "F8",
+    "human": "K1"
+  },
+  "Barry Dineen": {
+    "random": "G1",
+    "human": "N9"
+  },
+  "Bella PesciaCastle": {
+    "random": "G2",
+    "human": "W1"
+  },
+  "Ben Doherty": {
+    "random": "G3",
+    "human": "X3"
+  },
+  "Benita Chen": {
+    "random": "G4",
+    "human": "L5"
+  },
+  "Bernard Whitcher": {
+    "random": "G5",
+    "human": "W13"
+  },
+  "Brian Steele": {
+    "random": "G6",
+    "human": "N3"
+  },
+  "Bronte Doherty": {
+    "random": "G7",
+    "human": "V3"
+  },
+  "Byron Sullivan": {
+    "random": "G8",
+    "human": "I5"
+  },
+  "Cameron Angus": {
+    "random": "H1",
+    "human": "V4"
+  },
+  "Camila Beltran": {
+    "random": "H2",
+    "human": "N4"
+  },
+  "Candace Sacha-Parr": {
+    "random": "H3",
+    "human": "U8"
+  },
+  "Charlie Fanniere": {
+    "random": "H4",
+    "human": "Y1"
+  },
+  "Charmaine Chan": {
+    "random": "H5",
+    "human": "N10"
+  },
+  "Chloe Henry-Jones": {
+    "random": "H6",
+    "human": "O2"
+  },
+  "Chris Bickerton": {
+    "random": "H7",
+    "human": "E1"
+  },
+  "Ciaran Durney": {
+    "random": "I1",
+    "human": "E2"
+  },
+  "Clarrie Morabito": {
+    "random": "I2",
+    "human": "P2"
+  },
+  "Connor Badenko": {
+    "random": "I3",
+    "human": "Y2"
+  },
+  "Conor Larkins": {
+    "random": "I4",
+    "human": "Z2"
+  },
+  "Craig Burns": {
+    "random": "I5",
+    "human": "I3"
+  },
+  "Craig Gerrard": {
+    "random": "J1",
+    "human": "Q2"
+  },
+  "Daisy Skazaly": {
+    "random": "J2",
+    "human": "U12"
+  },
+  "Dan Rumery": {
+    "random": "J3",
+    "human": "P3"
+  },
+  "Daniel Cruddace": {
+    "random": "J4",
+    "human": "Y3"
+  },
+  "Daniel Londono": {
+    "random": "J5",
+    "human": "W2"
+  },
+  "Daniela Laban": {
+    "random": "K1",
+    "human": "Q3"
+  },
+  "Dave Martinez": {
+    "random": "K2",
+    "human": "W3"
+  },
+  "Debbie Nicholls": {
+    "random": "K3",
+    "human": "Q4"
+  },
+  "Delia Ngay": {
+    "random": "K4",
+    "human": "G1"
+  },
+  "Dilon Wong": {
+    "random": "L1",
+    "human": "N5"
+  },
+  "Dominic Hawton": {
+    "random": "L2",
+    "human": "P4"
+  },
+  "Elena Bonanni": {
+    "random": "L3",
+    "human": "M5"
+  },
+  "Elena Monte Soto": {
+    "random": "L4",
+    "human": "W4"
+  },
+  "Ellie Park": {
+    "random": "L5",
+    "human": "Q5"
+  },
+  "Eric Yeoh": {
+    "random": "L6",
+    "human": "G2"
+  },
+  "Erik Deleporte": {
+    "random": "L7",
+    "human": "W5"
+  },
+  "Erika Halim": {
+    "random": "M1",
+    "human": "S4"
+  },
+  "Esther McKinnon": {
+    "random": "M2",
+    "human": "M6"
+  },
+  "Farbod Fathalipouri": {
+    "random": "M3",
+    "human": "S1"
+  },
+  "Felix Saw": {
+    "random": "M4",
+    "human": "F2"
+  },
+  "Fiona Long": {
+    "random": "M5",
+    "human": "A1"
+  },
+  "Gary Cai": {
+    "random": "M6",
+    "human": "H4"
+  },
+  "Geoff Cooke": {
+    "random": "M7",
+    "human": "G3"
+  },
+  "George Broome": {
+    "random": "M8",
+    "human": "P1"
+  },
+  "Gianluca Gennari": {
+    "random": "M9",
+    "human": "Q6"
+  },
+  "Guy Hanson": {
+    "random": "M10",
+    "human": "E3"
+  },
+  "Haydn Davies": {
+    "random": "M11",
+    "human": "P5"
+  },
+  "Heather McCabe": {
+    "random": "M12",
+    "human": "Q7"
+  },
+  "Hew Roberts": {
+    "random": "M13",
+    "human": "U6"
+  },
+  "Ian Fung": {
+    "random": "N1",
+    "human": "P6"
+  },
+  "Ian Goodbury": {
+    "random": "N2",
+    "human": "W6"
+  },
+  "Ian James": {
+    "random": "N3",
+    "human": "N6"
+  },
+  "Ida Larsson": {
+    "random": "N4",
+    "human": "I2"
+  },
+  "Ishaan Varshney": {
+    "random": "N5",
+    "human": "X4"
+  },
+  "James Paviour": {
+    "random": "N6",
+    "human": "M7"
+  },
+  "Jamie Don": {
+    "random": "N7",
+    "human": "W7"
+  },
+  "Jamie Yoo": {
+    "random": "N8",
+    "human": "M8"
+  },
+  "Jan Christel": {
+    "random": "N9",
+    "human": "W8"
+  },
+  "Jess Cowie": {
+    "random": "N10",
+    "human": "B1"
+  },
+  "Jess Dixon": {
+    "random": "O1",
+    "human": "M2"
+  },
+  "Jess Enander": {
+    "random": "O2",
+    "human": "L7"
+  },
+  "Jess Smith": {
+    "random": "O3",
+    "human": "J4"
+  },
+  "Jo Macey": {
+    "random": "O4",
+    "human": "Q8"
+  },
+  "Joanne Yong": {
+    "random": "O5",
+    "human": "Q9"
+  },
+  "John Walsh": {
+    "random": "O6",
+    "human": "K4"
+  },
+  "Joseph O'Meara": {
+    "random": "P1",
+    "human": "H5"
+  },
+  "Juan Diaz": {
+    "random": "P2",
+    "human": "L6"
+  },
+  "Juan Pablo Benavides": {
+    "random": "P3",
+    "human": "M3"
+  },
+  "Julia Goode": {
+    "random": "P4",
+    "human": "K2"
+  },
+  "Julie Wong": {
+    "random": "P5",
+    "human": "W12"
+  },
+  "Julio Pizarro": {
+    "random": "P6",
+    "human": "F4"
+  },
+  "Justin Lo": {
+    "random": "Q1",
+    "human": "S6"
+  },
+  "Kate Campbell": {
+    "random": "Q2",
+    "human": "L1"
+  },
+  "Kate Field": {
+    "random": "Q3",
+    "human": "C1"
+  },
+  "Kate O'Mullane": {
+    "random": "Q4",
+    "human": "Q10"
+  },
+  "Katherine Wiedersehn": {
+    "random": "Q5",
+    "human": "Q11"
+  },
+  "Kaye Santos": {
+    "random": "Q6",
+    "human": "Q12"
+  },
+  "Kim Small": {
+    "random": "Q7",
+    "human": "B2"
+  },
+  "Kirsten Karst": {
+    "random": "Q8",
+    "human": "Y4"
+  },
+  "Knut Menden": {
+    "random": "Q9",
+    "human": "L2"
+  },
+  "Kristin Cox (Neise)": {
+    "random": "Q10",
+    "human": "S2"
+  },
+  "Laura Robinson": {
+    "random": "Q11",
+    "human": "D1"
+  },
+  "Leny Lembo": {
+    "random": "Q12",
+    "human": "R1"
+  },
+  "Liam Croft": {
+    "random": "R1",
+    "human": "C2"
+  },
+  "Lisa Beetson": {
+    "random": "R2",
+    "human": "S5"
+  },
+  "Lisa Fathalla": {
+    "random": "R3",
+    "human": "W9"
+  },
+  "Louise Barbour": {
+    "random": "R4",
+    "human": "Y5"
+  },
+  "Lucy Rimmer": {
+    "random": "R5",
+    "human": "H6"
+  },
+  "Luke Johnson": {
+    "random": "R6",
+    "human": "M9"
+  },
+  "Marc Hine": {
+    "random": "S1",
+    "human": "C3"
+  },
+  "Marco Montevecchi": {
+    "random": "S2",
+    "human": "S3"
+  },
+  "Marcos Camara": {
+    "random": "S3",
+    "human": "E5"
+  },
+  "Maria Guardala": {
+    "random": "S4",
+    "human": "W10"
+  },
+  "Max Melser": {
+    "random": "S5",
+    "human": "M10"
+  },
+  "Michelle Farman": {
+    "random": "S6",
+    "human": "G4"
+  },
+  "Michelle Vassilliou": {
+    "random": "S7",
+    "human": "F3"
+  },
+  "Mitch Page": {
+    "random": "T1",
+    "human": "F7"
+  },
+  "Mitch Reed": {
+    "random": "T2",
+    "human": "Y6"
+  },
+  "Monica Colla": {
+    "random": "T3",
+    "human": "G7"
+  },
+  "Nazgol Asadi": {
+    "random": "T4",
+    "human": "G8"
+  },
+  "Neil Haybittel": {
+    "random": "T5",
+    "human": "O3"
+  },
+  "Nick Souksamrane": {
+    "random": "T6",
+    "human": "F5"
+  },
+  "Paul Jenkins": {
+    "random": "T7",
+    "human": "Y7"
+  },
+  "Paul Quang": {
+    "random": "U1",
+    "human": "M11"
+  },
+  "Peter Richards": {
+    "random": "U2",
+    "human": "D3"
+  },
+  "Peter Titmuss": {
+    "random": "U3",
+    "human": "G5"
+  },
+  "Phil Rowden": {
+    "random": "U4",
+    "human": "D4"
+  },
+  "Pi Saengporm": {
+    "random": "U5",
+    "human": "Y8"
+  },
+  "Quetzal Diaz de Leon": {
+    "random": "U6",
+    "human": "R2"
+  },
+  "Rana Aboud": {
+    "random": "U7",
+    "human": "N7"
+  },
+  "Rebecca (Qiao) Qin": {
+    "random": "U8",
+    "human": "E4"
+  },
+  "Renae Tapley": {
+    "random": "U9",
+    "human": "H7"
+  },
+  "Reza Hafezi": {
+    "random": "U10",
+    "human": "N8"
+  },
+  "Ricardo Velez": {
+    "random": "U11",
+    "human": "Y9"
+  },
+  "Ruth Kealy": {
+    "random": "U12",
+    "human": "M12"
+  },
+  "Sally Johnson": {
+    "random": "V1",
+    "human": "F8"
+  },
+  "Sam Williams": {
+    "random": "V2",
+    "human": "J2"
+  },
+  "Sara Fard": {
+    "random": "V3",
+    "human": "R3"
+  },
+  "Scott Bearman": {
+    "random": "V4",
+    "human": "Z3"
+  },
+  "Sebastian Tsang": {
+    "random": "W1",
+    "human": "D5"
+  },
+  "Selina Qiu": {
+    "random": "W2",
+    "human": "J3"
+  },
+  "Shao Ing (from Bris)": {
+    "random": "W3",
+    "human": "M1"
+  },
+  "Shawnee Finlayson": {
+    "random": "W4",
+    "human": "R4"
+  },
+  "Simon Hubert": {
+    "random": "W5",
+    "human": "J5"
+  },
+  "Stefan Heim": {
+    "random": "W6",
+    "human": "M13"
+  },
+  "Thomas Chen": {
+    "random": "W7",
+    "human": "W11"
+  },
+  "Tiana Furner": {
+    "random": "W8",
+    "human": "K3"
+  },
+  "Tim Crawshaw": {
+    "random": "W9",
+    "human": "C4"
+  },
+  "Tim Gibson": {
+    "random": "W10",
+    "human": "R5"
+  },
+  "Valentine Steisel": {
+    "random": "W11",
+    "human": "Z1"
+  },
+  "Valerie Lux": {
+    "random": "W12",
+    "human": "I4"
+  },
+  "Wikki Amornsak": {
+    "random": "W13",
+    "human": "R6"
+  },
+  "Yashan Chen": {
+    "random": "X1",
+    "human": "Z4"
+  },
+  "Ziad Zahran": {
+    "random": "X2",
+    "human": "L3"
+  },
+  "Spare 1": {
+    "random": "X3",
+    "human": "U5"
+  },
+  "Spare 2": {
+    "random": "X4",
+    "human": "O4"
+  },
+  "Spare 3": {
+    "random": "Y1",
+    "human": "O5"
+  },
+  "Spare 4": {
+    "random": "Y2",
+    "human": "O6"
+  },
+  "Spare 5": {
+    "random": "Y3",
+    "human": "T1"
+  },
+  "Spare 6": {
+    "random": "Y4",
+    "human": "T2"
+  },
+  "Spare 7": {
+    "random": "Y5",
+    "human": "T3"
+  },
+  "Spare 8": {
+    "random": "Y6",
+    "human": "T4"
+  },
+  "Spare 9": {
+    "random": "Y7",
+    "human": "T5"
+  },
+  "Spare 10": {
+    "random": "Y8",
+    "human": "T6"
+  },
+  "Spare 11": {
+    "random": "Y9",
+    "human": "T7"
+  },
+  "Spare 12": {
+    "random": "Z1",
+    "human": "U1"
+  },
+  "Spare 13": {
+    "random": "Z2",
+    "human": "U2"
+  },
+  "Spare 14": {
+    "random": "Z3",
+    "human": "U3"
+  },
+  "Spare 15": {
+    "random": "Z4",
+    "human": "U4"
+  }
+}
