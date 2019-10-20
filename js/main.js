@@ -309,7 +309,8 @@ document.addEventListener("DOMContentLoaded", function() {
       /*TEAM HULLS*/
       let teams = Array.from(new Set(peopleData.map(p => p.team)));
       // console.log(teams);
-      if (true) {
+      DOING_HULLS = false;
+      if (DOING_HULLS) {
         let hulls = teams.map((t, i) => {
           return analyticsLayer
             .append("path")
@@ -321,24 +322,25 @@ document.addEventListener("DOMContentLoaded", function() {
         redrawHulls();
 
         function redrawHulls() {
-          teams.map((t, i) => {
-            let vertices;
-            let teamPeople = peopleData.filter(p => p.team == t && p.onMap);
-            if (teamPeople.length >= 3) {
-              //must have 3 people to make a meaningful hull
-              vertices = teamPeople.map(a => [a.x, a.y]);
-            } else {
-              vertices = [[0, 0], [0, 1], [1, 1]];
-            }
-            hulls[i]
-              .datum(d3.polygonHull(vertices))
-              .attr("d", d => "M" + d.join("L") + "Z");
-          });
+          if(DOING_HULLS) {
+            teams.map((t, i) => {
+              let vertices;
+              let teamPeople = peopleData.filter(p => p.team == t && p.onMap);
+              if (teamPeople.length >= 3) {
+                //must have 3 people to make a meaningful hull
+                vertices = teamPeople.map(a => [a.x, a.y]);
+              } else {
+                vertices = [[0, 0], [0, 1], [1, 1]];
+              }
+              hulls[i]
+                .datum(d3.polygonHull(vertices))
+                .attr("d", d => "M" + d.join("L") + "Z");
+            });
+          }
         }
       } //end hulls
 
       /*TABLE*/
-
       var sortAscending = true;
       var table = d3.select("#page-wrap").append("table");
       var columnsToShow = ["FirstName", "LastName", "studio", "team"];
