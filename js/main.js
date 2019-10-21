@@ -235,8 +235,7 @@ document.addEventListener("DOMContentLoaded", function() {
         .append("g")
         .attr(
           "transform",
-          d => `translate(${d.x - 26534}, ${d.y + 30914-8800}) 
-                rotate(${d.rotation || 0})`
+          d => `translate(${d.x - 26534}, ${d.y + 30914-8800}) rotate(${d.rotation || 0})`
         )
         .append("line")
         .attr("x1", 0)
