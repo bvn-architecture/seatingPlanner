@@ -6,7 +6,8 @@ document.addEventListener("DOMContentLoaded", function() {
     d3.json("data/boundary_points.json"),
     d3.json("data/overall_floor_boundary.json"),
 
-    d3.json("data/furniture_instance_metadata.json"),
+    // d3.json("data/furniture_instance_metadata.json"),
+    d3.json("data/DesksFromRhino.json"),
 
     /* a */
     d3.json(fam + "/Pedestal_FUR_500W x 830H x 800D.json"),
@@ -26,7 +27,9 @@ document.addEventListener("DOMContentLoaded", function() {
     /* f */
     d3.json(fam + "/Workstation_1P_Corner_New_FYS_1500X730.json"),
     /* g */
-    d3.json(fam + "/Workstation_1P_Corner_New_FYS_1500X780.json")
+    d3.json(fam + "/Workstation_1P_Corner_New_FYS_1500X780.json"),
+    /* h */
+    d3.json(fam + "/DeskFromRhino.json"),
   ]).then(
     ([
       peopleData,
@@ -41,8 +44,8 @@ document.addEventListener("DOMContentLoaded", function() {
       furn_d,
       furn_e,
       furn_f,
-      furn_g
-      //   furn_h,
+      furn_g,
+      furn_h,
       //   furn_i,
       //   furn_j
     ]) => {
@@ -53,19 +56,17 @@ document.addEventListener("DOMContentLoaded", function() {
         furn_d,
         furn_e,
         furn_f,
-        furn_g
-        // furn_h,
+        furn_g,
+        furn_h,
         // furn_i,
         // furn_j
       ];
       console.log("all, as promised", [
-        peopleData,
-        boundaries,
-        overall_floor_boundary,
-
-        furniture_instance_metadata,
-
-        furniture_outlines
+        "peopleData", peopleData,
+        "boundaries", boundaries,
+        "overall_floor_boundary", overall_floor_boundary,
+        "furniture_instance_metadata", furniture_instance_metadata,
+        "furniture_outlines", furniture_outlines
       ]);
 
       // Cut the data down to just A people so that it's easier to work with
@@ -97,7 +98,12 @@ document.addEventListener("DOMContentLoaded", function() {
       let flipMapY = true;
 
       let snapPoints = furniture_instance_metadata.map(s => {
-        if (s.Type.family.includes("Workstation")) {
+        if (s.Type.family.includes("Doherty") ||
+            s.Type.family.includes("Workstation")
+            /* Doherty is for my ghetto rhino version, workstation is 
+               for the legit revit version.
+               No prizes for guessing which one actually works...*/
+            ) { 
           const centre = { x: s.Point.X, y: s.Point.Y };
           const point = { x: centre.x, y: centre.y + 500 };
           const angle = 360 - s.Rotation; //TODO check if this should be 360-s.Rotation

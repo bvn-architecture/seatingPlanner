@@ -1,0 +1,2786 @@
+[
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "A1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 729.92284609089256, 
+      "X": -7.2759576141834259e-12, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "B1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -8775.080252896234, 
+      "X": 91.374943699411233, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "B2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -10116.244101778095, 
+      "X": 91.374943699411233, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 19.342994389380287, 
+    "Y Mirror": false, 
+    "Name": "C1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -9314.3269265773124, 
+      "X": 5090.9098663229597, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 19.342994389380287, 
+    "Y Mirror": false, 
+    "Name": "C2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -8806.2017088711837, 
+      "X": 3674.9989922460809, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -160.65700561061971, 
+    "Y Mirror": false, 
+    "Name": "C3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -9365.6900231663385, 
+      "X": 5058.3931471457181, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -160.65700561061971, 
+    "Y Mirror": false, 
+    "Name": "C4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -8877.3064474375533, 
+      "X": 3635.5522132544502, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "D1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -8713.2364583719755, 
+      "X": 9394.1016908534293, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "D2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -8713.2364583719755, 
+      "X": 7885.593636584963, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "D3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -8713.2364583719755, 
+      "X": 10902.609745122158, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "D4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -7932.1616737115219, 
+      "X": 10188.204396436289, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "D5", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -7932.1616737115219, 
+      "X": 10128.970339783467, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "E1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -12786.24413675267, 
+      "X": 91.374943699411233, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "E2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -14127.407985634532, 
+      "X": 91.374943699411233, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "E3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -15497.223005115369, 
+      "X": 91.374943699411233, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "E4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -16895.689195195184, 
+      "X": 91.374943699411233, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "E5", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -18299.596554544936, 
+      "X": 91.374943699411233, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "F1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -15096.893840469622, 
+      "X": 4388.0162752437973, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "F2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -16605.401894738192, 
+      "X": 4388.0162752437973, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "F3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -13588.385786201052, 
+      "X": 4388.0162752437973, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "F4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -17299.359898575443, 
+      "X": 3591.1618676114595, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "F5", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -17379.516626114011, 
+      "X": 3591.1618676114595, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "F6", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -14306.03648830688, 
+      "X": 3591.1618676114595, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "F7", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -14386.193215845451, 
+      "X": 3591.1618676114595, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "F8", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -17379.516626114011, 
+      "X": 5071.0187512812117, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "G1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -14494.989842599047, 
+      "X": 9916.5223988725411, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "G2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -14494.989842599047, 
+      "X": 8408.0143446040747, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "G3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -14494.989842599047, 
+      "X": 11425.030453141269, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "G4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -14542.965741479569, 
+      "X": 11425.030453141269, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "G5", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -15265.489716549693, 
+      "X": 7622.0302654056795, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "G6", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -13772.465867528923, 
+      "X": 7622.0302654056795, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "G7", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -15265.489716549693, 
+      "X": 10639.046373942874, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "G8", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -15265.489716549693, 
+      "X": 7697.1600277359466, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "H1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -1855.5821501023311, 
+      "X": 17261.958217502266, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "H2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -1855.5821501023311, 
+      "X": 18761.149115625492, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "H3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -4150.0742835693491, 
+      "X": 18038.625140555312, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "H4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -5658.5823378379173, 
+      "X": 18038.625140555312, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "H5", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -2641.5662293007772, 
+      "X": 18038.625140555312, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "H6", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -4150.0742835693491, 
+      "X": 17955.831021973623, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "H7", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -2641.5662293007772, 
+      "X": 17955.831021973623, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 150.80100004415502, 
+    "Y Mirror": false, 
+    "Name": "I1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 4707.6557489024053, 
+      "X": 19249.405705680998, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -119.19899995594133, 
+    "Y Mirror": false, 
+    "Name": "I2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 6707.1534037440324, 
+      "X": 18095.613782048669, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -119.19899995594133, 
+    "Y Mirror": false, 
+    "Name": "I3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 5388.9100103855344, 
+      "X": 18820.340762410327, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 60.801000044058682, 
+    "Y Mirror": false, 
+    "Name": "I4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 6724.118648924381, 
+      "X": 18153.989163616883, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 60.801000044058682, 
+    "Y Mirror": false, 
+    "Name": "I5", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 5416.082263872162, 
+      "X": 18896.980183466883, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "J1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 1351.4197902388696, 
+      "X": 21065.204459433946, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "J2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 1307.923198000397, 
+      "X": 18780.779161650513, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "J3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 1331.4270392298858, 
+      "X": 20266.836030024941, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "J4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 1298.7634040252015, 
+      "X": 20294.830238141745, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "J5", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 2069.5690524859638, 
+      "X": 19495.660954941581, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "K1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -20609.248861276861, 
+      "X": 1312.2831612578884, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "K2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -20609.248861276861, 
+      "X": 2939.9587161295494, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "K3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -20609.248861276861, 
+      "X": 4567.6342710012104, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "K4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -20609.248861276861, 
+      "X": 6195.3098258728714, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -40.100701783814408, 
+    "Y Mirror": false, 
+    "Name": "L1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -9079.4386345036328, 
+      "X": 19804.980052217448, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -40.100701783780856, 
+    "Y Mirror": false, 
+    "Name": "L2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -8119.7700837683587, 
+      "X": 20944.594762592686, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -40.100701783814408, 
+    "Y Mirror": false, 
+    "Name": "L3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -10040.398803417276, 
+      "X": 18647.590578462114, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 139.8992982161856, 
+    "Y Mirror": false, 
+    "Name": "L4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -9133.5519757743168, 
+      "X": 19832.679348486308, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 139.8992982161856, 
+    "Y Mirror": false, 
+    "Name": "L5", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -10110.516178342074, 
+      "X": 18688.766857471754, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 49.899298216172994, 
+    "Y Mirror": false, 
+    "Name": "L6", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -9144.4612888195079, 
+      "X": 20902.366283776944, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -130.10070178382702, 
+    "Y Mirror": false, 
+    "Name": "L7", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -10568.669220447504, 
+      "X": 18054.504915345984, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "M1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 12068.539411465728, 
+      "X": 17936.412982413829, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "M2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 13571.815410002597, 
+      "X": 17936.412982413829, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "M3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 15101.465174056055, 
+      "X": 18728.295338714182, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "M4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 15075.091408539749, 
+      "X": 17936.412982413829, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "M5", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 14304.942924042265, 
+      "X": 18011.067757649937, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "M6", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 12801.666925505418, 
+      "X": 18011.067757649937, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "M7", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 11298.390926968266, 
+      "X": 18011.067757649937, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "M8", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 10515.108386670636, 
+      "X": 20243.225866549714, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "M9", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 10552.509917197847, 
+      "X": 17949.544886523516, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "M10", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 10501.8686769546, 
+      "X": 18730.399477813044, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "M11", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 11289.967715897019, 
+      "X": 20963.774258356389, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "M12", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 12023.095229936687, 
+      "X": 21038.429033592496, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "M13", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 10519.819231399557, 
+      "X": 21038.429033592496, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "N1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -14356.606664622439, 
+      "X": 17608.171331214609, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "N2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -14346.145329179566, 
+      "X": 16103.882329506683, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "N3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -14415.840721275265, 
+      "X": 17594.502708397391, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "N4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -14426.302056718137, 
+      "X": 16090.213706689516, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "N5", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -14351.689082157893, 
+      "X": 20595.949256991546, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "N6", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -14341.22774671502, 
+      "X": 19091.66025528367, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "N7", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -14410.923138810718, 
+      "X": 20582.280634174123, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "N8", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -14421.384474253591, 
+      "X": 19077.99163246651, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "N9", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -13620.012733504356, 
+      "X": 21374.092897539602, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "N10", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -15109.873604651031, 
+      "X": 21374.092897539602, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "O1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 2859.0812071654, 
+      "X": 24192.080649422038, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "O2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 2872.3209168814319, 
+      "X": 25704.907038159035, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "O3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 583.66736806141853, 
+      "X": 24966.590152035431, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "O4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 2069.7242364357407, 
+      "X": 24943.086310805833, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "O5", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 2097.7184445525527, 
+      "X": 24975.74994601067, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "O6", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 1298.54916135233, 
+      "X": 24204.944297549962, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "P1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -7651.3732484701577, 
+      "X": 25739.243861766772, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "P2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -7651.3732484701577, 
+      "X": 24249.382990620092, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "P3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -5343.0796211083907, 
+      "X": 25019.879279911729, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "P4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -6847.3686228161605, 
+      "X": 25009.417944468798, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "P5", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -5356.7482439256055, 
+      "X": 25079.113336564544, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "P6", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -6861.0372456333789, 
+      "X": 25089.574672007475, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "Q1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 18758.981295219073, 
+      "X": 15868.997076621716, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "Q2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 18758.981295219073, 
+      "X": 17372.273075158875, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "Q3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 18758.981295219073, 
+      "X": 18875.549073695976, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "Q4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 18758.981295219073, 
+      "X": 20378.825072232874, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "Q5", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 18769.442630661997, 
+      "X": 14364.708074914102, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "Q6", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 18699.747238566244, 
+      "X": 15855.328453804548, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "Q7", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 17967.102436376252, 
+      "X": 16630.600961618999, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "Q8", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 17967.102436376252, 
+      "X": 19637.15295869331, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "Q9", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 17967.109431290944, 
+      "X": 19585.305022065666, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "Q10", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 17967.105933833674, 
+      "X": 22572.906164633045, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "Q11", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 18689.285903123604, 
+      "X": 14351.03945209668, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "Q12", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 18758.981295219073, 
+      "X": 21882.101070770026, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "R1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 9760.6122839546188, 
+      "X": 25704.907038158875, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "R2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 9747.3725742385905, 
+      "X": 24192.080649422154, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "R3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 12053.24525322115, 
+      "X": 24953.901376775037, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "R4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 10549.969254684274, 
+      "X": 24953.901376775037, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "R5", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 10521.975046567492, 
+      "X": 24921.237741570505, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "R6", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 11263.23883862454, 
+      "X": 24199.824649721973, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "S1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -12114.472702116807, 
+      "X": 24944.161637390724, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "S2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -10624.611830970131, 
+      "X": 24944.161637390724, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "S3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -13618.761703824577, 
+      "X": 24933.700301947792, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "S4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -10589.903961184191, 
+      "X": 25742.50440149528, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "S5", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -10649.138017837013, 
+      "X": 25728.83577867812, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "S6", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -13575.155761230357, 
+      "X": 25775.016765007, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "S7", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": -13634.389817883182, 
+      "X": 25761.34814218984, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "T1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 21834.570569205822, 
+      "X": 18655.361963718562, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "T2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 21824.109233762898, 
+      "X": 17151.072962011, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "T3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 24868.802367233035, 
+      "X": 17902.232998852051, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "T4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 22560.508739871239, 
+      "X": 17933.969486331713, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "T5", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 24064.797741579143, 
+      "X": 17944.430821774637, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "T6", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 22574.177362688435, 
+      "X": 17874.735429678884, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "T7", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 24078.466364396303, 
+      "X": 17864.27409423596, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "U1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 11143.743844009525, 
+      "X": -27402.742340984471, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "U2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 11143.743844009525, 
+      "X": -25899.466342447417, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "U3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 10351.86148770915, 
+      "X": -24369.816578394013, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "U4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 8890.6517871614451, 
+      "X": -24369.816578394013, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "U5", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 11143.743844009525, 
+      "X": -24396.190343910366, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "U6", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 11069.089068773417, 
+      "X": -25166.338828407777, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "U7", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 11069.089068773417, 
+      "X": -26669.614826944828, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "U8", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 11069.089068773417, 
+      "X": -28172.890825481882, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "U9", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 8836.9309598736399, 
+      "X": -28956.173365779585, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "U10", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 11130.611939899838, 
+      "X": -28918.771835252381, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "U11", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 10349.757348610339, 
+      "X": -28969.413075495671, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "U12", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 8116.3825680669652, 
+      "X": -28181.314036553227, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "V1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 14392.624643476982, 
+      "X": -22971.582237471092, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "V2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 14392.624643476982, 
+      "X": -24599.257792342698, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "V3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 14392.624643476982, 
+      "X": -26226.933347214308, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "V4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 14392.624643476982, 
+      "X": -27854.608902085914, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "W1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 25310.685534231026, 
+      "X": 24990.928957723787, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "W2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 23807.409535693896, 
+      "X": 24990.928957723787, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "W3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 22304.133537156744, 
+      "X": 24990.928957723787, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "W4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 17805.154794702717, 
+      "X": 24946.513865827968, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "W5", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 19308.430793239586, 
+      "X": 24946.513865827968, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -90.0, 
+    "Y Mirror": false, 
+    "Name": "W6", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 20811.706791776738, 
+      "X": 24946.513865827968, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 90.0, 
+    "Y Mirror": false, 
+    "Name": "W7", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 17845.678714001402, 
+      "X": 25026.68696165493, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "W8", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 18596.567508681404, 
+      "X": 25724.059161420002, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "W9", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 21582.873214433301, 
+      "X": 24245.410508802415, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 0.0, 
+    "Y Mirror": false, 
+    "Name": "W10", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 24589.437109604132, 
+      "X": 24220.327024448394, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "W11", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 24530.203052951303, 
+      "X": 24206.658401631219, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "W12", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 21469.766650726768, 
+      "X": 25729.332697371232, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "W13", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 17022.523706857752, 
+      "X": 24955.939953895831, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 68.828093281903762, 
+    "Y Mirror": false, 
+    "Name": "X1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 26518.822818525452, 
+      "X": 20634.123296279344, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 68.828093281903762, 
+    "Y Mirror": false, 
+    "Name": "X2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 27925.352111610231, 
+      "X": 20100.578370437266, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -111.17190671809624, 
+    "Y Mirror": false, 
+    "Name": "X3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 26510.175413380955, 
+      "X": 20573.950818338359, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -111.17190671809624, 
+    "Y Mirror": false, 
+    "Name": "X4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 27909.148120043628, 
+      "X": 20020.895480951884, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 77.806890673748342, 
+    "Y Mirror": false, 
+    "Name": "Y1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 10129.746587517246, 
+      "X": -33676.632040393757, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 77.806890673748342, 
+    "Y Mirror": false, 
+    "Name": "Y2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 8655.2685106003955, 
+      "X": -33358.024208593313, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 77.806890673697396, 
+    "Y Mirror": false, 
+    "Name": "Y3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 7180.79043368356, 
+      "X": -33039.416376792913, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -12.193109326229651, 
+    "Y Mirror": false, 
+    "Name": "Y4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 10886.211900936945, 
+      "X": -33897.190941959474, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 167.80689067377034, 
+    "Y Mirror": false, 
+    "Name": "Y5", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 6565.139430803476, 
+      "X": -32167.186068928313, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -102.1931093262517, 
+    "Y Mirror": false, 
+    "Name": "Y6", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 10114.76517769133, 
+      "X": -33745.964172704204, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 167.80689067377034, 
+    "Y Mirror": false, 
+    "Name": "Y7", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 9185.7034206329008, 
+      "X": -34284.410214187883, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -102.1931093263026, 
+    "Y Mirror": false, 
+    "Name": "Y8", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 5691.3309469408377, 
+      "X": -32790.140677302945, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": -12.193109326229651, 
+    "Y Mirror": false, 
+    "Name": "Y9", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 6306.981949820638, 
+      "X": -33662.370985167465, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "Z1", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 14392.624643476982, 
+      "X": -30420.886593204472, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "Z2", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 14392.624643476982, 
+      "X": -32048.562148076082, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "Z3", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 14392.624643476982, 
+      "X": -33676.237702947692, 
+      "Z": 61785.0
+    }
+  }, 
+  {
+    "Rotation": 180.0, 
+    "Y Mirror": false, 
+    "Name": "Z4", 
+    "Type": {
+      "family_type": "DeskFromRhino", 
+      "family": "benOfTheFamilyDoherty"
+    }, 
+    "ELID": 666, 
+    "X Mirror": false, 
+    "Point": {
+      "Y": 14392.624643476982, 
+      "X": -35303.913257819295, 
+      "Z": 61785.0
+    }
+  }
+]
