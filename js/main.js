@@ -112,7 +112,9 @@ document.addEventListener("DOMContentLoaded", function() {
             x: rotatedPoint.x,
             y: rotatedPoint.y,
             insertionX: centre.x,
-            insertionY: centre.y
+            insertionY: centre.y,
+            name: s.Name,
+            rotation: angle
           };
           return compoundPoint;
         }
@@ -329,6 +331,23 @@ document.addEventListener("DOMContentLoaded", function() {
       }
 
       /*TEAM HULLS*/
+      function redrawHulls() {
+        if(DOING_HULLS) {
+          teams.map((t, i) => {
+            let vertices;
+            let teamPeople = peopleData.filter(p => p.team == t && p.onMap);
+            if (teamPeople.length >= 3) {
+              //must have 3 people to make a meaningful hull
+              vertices = teamPeople.map(a => [a.x, a.y]);
+            } else {
+              vertices = [[0, 0], [0, 1], [1, 1]];
+            }
+            hulls[i]
+              .datum(d3.polygonHull(vertices))
+              .attr("d", d => "M" + d.join("L") + "Z");
+          });
+        }
+      }
       let teams = Array.from(new Set(peopleData.map(p => p.team)));
       // console.log(teams);
       DOING_HULLS = false;
@@ -342,26 +361,9 @@ document.addEventListener("DOMContentLoaded", function() {
             .style("stroke", color(i));
         });
         redrawHulls();
-
-        function redrawHulls() {
-          if(DOING_HULLS) {
-            teams.map((t, i) => {
-              let vertices;
-              let teamPeople = peopleData.filter(p => p.team == t && p.onMap);
-              if (teamPeople.length >= 3) {
-                //must have 3 people to make a meaningful hull
-                vertices = teamPeople.map(a => [a.x, a.y]);
-              } else {
-                vertices = [[0, 0], [0, 1], [1, 1]];
-              }
-              hulls[i]
-                .datum(d3.polygonHull(vertices))
-                .attr("d", d => "M" + d.join("L") + "Z");
-            });
-          }
-        }
       } //end hulls
 
+      
       /*TABLE*/
       var sortAscending = true;
       var table = d3.select("#page-wrap").append("table");
