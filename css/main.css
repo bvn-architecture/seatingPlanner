@@ -145,6 +145,11 @@ circle.person-dot {
   font-family: blender;
 }
 
+.desk-label {
+  font-size: 500px;
+  transform: scaleY(-1);
+}
+
 .furniture {
   fill: aliceblue;
   stroke: black;

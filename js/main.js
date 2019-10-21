@@ -224,14 +224,30 @@ document.addEventListener("DOMContentLoaded", function() {
         .selectAll(".desk")
         .data(snapPoints)
         .enter()
+        .append("g")
+        .attr(
+          "transform",
+          d => `translate(${d.x - 26534}, ${d.y + 30914-8800}) 
+                rotate(${d.rotation || 0})`
+        )
         .append("line")
-        .attr("x1", d => d.x)
-        .attr("y1", d => d.y)
-        .attr("x2", d => d.insertionX)
-        .attr("y2", d => d.insertionY)
+        .attr("x1", 0)
+        .attr("y1", 0)
+        .attr("x2", d => d.insertionX - d.x)
+        .attr("y2", d => d.insertionY - d.y)
+        .attr("id", d => "line"+d.name)
         .attr("class", "deskLine")
         .style("stroke-width", "20px")
-        .style("stroke", "black"); //TODO change this back to circles once the desks are in.
+        .style("stroke", "black")
+        .select(function() {
+          return this.parentNode;
+        })
+        .append("text")
+          .classed("desk-label", true)
+          .attr("text-anchor", "middle")
+          .attr("x", d => d.insertionX - d.x)
+          .attr("y", d => d.insertionY - d.y)
+          .text(d => d.name); //TODO change this back to circles once the desks are in.
       // .append("circle")
       // .attr("cx", d => d.x)
       // .attr("cy", d => d.y)
