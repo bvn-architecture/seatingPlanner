@@ -151,6 +151,8 @@ document.addEventListener("DOMContentLoaded", function() {
           let thisPersonsDesk = snapPoints.filter(s => s.name == person.HumanPlacement)[0];
           x = thisPersonsDesk.x + crappyXoffset;
           y = thisPersonsDesk.y + crappyYoffset;
+          person.placed = true;
+          person.onMap = true;
         } else {
           x = getCoord(person.x, bounds.xMin, bounds.xMax);
           y = getCoord(person.y, bounds.yMin, bounds.yMax);
