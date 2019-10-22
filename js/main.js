@@ -117,10 +117,10 @@ document.addEventListener("DOMContentLoaded", function() {
           const angle = 360 - s.Rotation + 90; //TODO check if this should be 360-s.Rotation
           const rotatedPoint = rotatePoint(point, centre, angle);
           const compoundPoint = {
-            x: rotatedPoint.x,
-            y: rotatedPoint.y,
-            insertionX: centre.x,
-            insertionY: centre.y,
+            x: rotatedPoint.x + crappyXoffset,
+            y: rotatedPoint.y + crappyYoffset,
+            insertionX: centre.x + crappyXoffset,
+            insertionY: centre.y + crappyYoffset,
             name: s.Name,
             rotation: angle,
             type: s.Type
@@ -149,8 +149,8 @@ document.addEventListener("DOMContentLoaded", function() {
         if(STRONG) {
           // temp strong placement, overrides some other stuff
           let thisPersonsDesk = snapPoints.filter(s => s.name == person.HumanPlacement)[0];
-          x = thisPersonsDesk.x + crappyXoffset;
-          y = thisPersonsDesk.y + crappyYoffset;
+          x = thisPersonsDesk.x;
+          y = thisPersonsDesk.y;
           person.placed = true;
           person.onMap = true;
         } else {
@@ -258,8 +258,8 @@ document.addEventListener("DOMContentLoaded", function() {
         .data(snapPoints)
         .enter()
         .append("g")
-        .attr("transform", d => `translate(${d.x + crappyXoffset}, `
-                               +`${d.y + crappyYoffset}) `
+        .attr("transform", d => `translate(${d.x}, `
+                               +`${d.y}) `
                                +`rotate(${d.rotation || 0})`)
         .append("use")
           .attr("xlink:href", d => {
