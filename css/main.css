@@ -14,6 +14,7 @@
 
 html {
   color: #222;
+  font-family: "Noto Serif", sans-serif;
   font-size: 1em;
   line-height: 1.4;
 }
@@ -141,13 +142,19 @@ circle.person-dot {
   opacity: 0.2;
 }
 .person-label {
-  font-size: 800px;
   font-family: blender;
+  font-size: 500px;
+  transform: rotate(-20deg);
 }
 
 .desk-label {
   font-size: 500px;
   transform: scaleY(-1);
+}
+.deskShape {
+  fill: hsla(39, 100%, 50%, 0.2);
+  stroke: black;
+  stroke-width: 5px;
 }
 
 .furniture {
