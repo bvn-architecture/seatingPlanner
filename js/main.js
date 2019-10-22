@@ -1,6 +1,12 @@
 /*jshint esversion: 6 */
 document.addEventListener("DOMContentLoaded", function() {
+  // Where are the furniture outlines stored?
+  // This is mainly a refactoring to keep line lengths short
   const fam = "data/FamilyArchitypes";
+  // stuff from rhino has a different origin point,
+  // these offsets make it look more or less the same
+  const crappyXoffset = -26534;
+  const crappyYoffset = 22114;
   Promise.all([
     d3.json("data/peopleData.json"),
     d3.json("data/boundary_points.json"),
@@ -70,13 +76,14 @@ document.addEventListener("DOMContentLoaded", function() {
       ]);
 
       // Cut the data down to just A people so that it's easier to work with
-      peopleData = peopleData.filter(p => p.FirstName[0] == "A");
+      // peopleData = peopleData.filter(p => p.FirstName[0] == "A");
       peopleData.forEach((val, index) => {
         peopleData[index].id = index;
       });
 
       function rotatePoint(point, centre, angle) {
         angle = (angle * (Math.PI / 180)) % Math.PI; // Convert to radians
+        
         const rotatedX =
           Math.cos(angle) * (point.x - centre.x) -
           Math.sin(angle) * (point.y - centre.y) +
@@ -86,6 +93,7 @@ document.addEventListener("DOMContentLoaded", function() {
           Math.sin(angle) * (point.x - centre.x) +
           Math.cos(angle) * (point.y - centre.y) +
           centre.y;
+
         const newP = { x: rotatedX, y: rotatedY };
         return newP;
       }
@@ -105,8 +113,8 @@ document.addEventListener("DOMContentLoaded", function() {
                No prizes for guessing which one actually works...*/
             ) { 
           const centre = { x: s.Point.X, y: s.Point.Y };
-          const point = { x: centre.x, y: centre.y + 500 };
-          const angle = 360 - s.Rotation; //TODO check if this should be 360-s.Rotation
+          const point = { x: centre.x, y: centre.y + 1000 };
+          const angle = 360 - s.Rotation + 90; //TODO check if this should be 360-s.Rotation
           const rotatedPoint = rotatePoint(point, centre, angle);
           const compoundPoint = {
             x: rotatedPoint.x,
@@ -114,7 +122,8 @@ document.addEventListener("DOMContentLoaded", function() {
             insertionX: centre.x,
             insertionY: centre.y,
             name: s.Name,
-            rotation: angle
+            rotation: angle,
+            type: s.Type
           };
           return compoundPoint;
         }
@@ -133,20 +142,34 @@ document.addEventListener("DOMContentLoaded", function() {
       let p3 = { x: -41646, y: 41065 };
       let p4 = { x: -13427, y: 40870 };
 
-      peopleData = peopleData.map(person => ({
-        x: getCoord(person.x, bounds.xMin, bounds.xMax),
-        y: getCoord(person.y, bounds.yMin, bounds.yMax),
-        displayName: `${person.FirstName} ${person.LastName}`,
-        selectorName: person.FirstName + person.LastName.replace(/\s/gi, "-"),
-        FirstName: person.FirstName,
-        LastName: person.LastName,
-        studio: person.Studio,
-        team: person.team,
-        placed: person.placed,
-        onMap: person.onMap,
-        highlighted: false,
-        id: person.id
-      }));
+      peopleData = peopleData.map(person => {
+        STRONG = true;
+        let x = 0;
+        let y = 0;
+        if(STRONG) {
+          // temp strong placement, overrides some other stuff
+          let thisPersonsDesk = snapPoints.filter(s => s.name == person.HumanPlacement)[0];
+          x = thisPersonsDesk.x + crappyXoffset;
+          y = thisPersonsDesk.y + crappyYoffset;
+        } else {
+          x = getCoord(person.x, bounds.xMin, bounds.xMax);
+          y = getCoord(person.y, bounds.yMin, bounds.yMax);
+        }
+        return {
+          x: x,
+          y: y,
+          displayName: `${person.FirstName} ${person.LastName}`,
+          selectorName: person.FirstName + person.LastName.replace(/\s/gi, "-"),
+          FirstName: person.FirstName,
+          LastName: person.LastName,
+          studio: person.Studio,
+          team: person.team,
+          placed: person.placed,
+          onMap: person.onMap,
+          highlighted: false,
+          id: person.id
+        };
+      });
 
       let color = d3.scaleOrdinal().range(d3.schemeAccent);
 
@@ -198,18 +221,18 @@ document.addEventListener("DOMContentLoaded", function() {
         .classed("overall-area", true)
         .classed("perimeter", true);
 
-      furniture_instance_metadata.map(f => {
-        // console.log(f);
-        backgroundLayer
-          .append("g")
-          .attr(
-            "transform",
-            `translate(${f.Point.X}, ${f.Point.Y}) rotate(${f.Rotation})`
-          )
-          .attr("class", `${tidyName(f.Type.family)} furniture`)
-          .append("use")
-          .attr("xlink:href", `#${tidyName(f.Type.family)}`);
-      });
+      // furniture_instance_metadata.map(f => {
+      //   // console.log(f);
+      //   backgroundLayer
+      //     .append("g")
+      //     .attr(
+      //       "transform",
+      //       `translate(${f.Point.X}, ${f.Point.Y}) rotate(${f.Rotation})`
+      //     )
+      //     .attr("class", `${tidyName(f.Type.family)} furniture`)
+      //     .append("use")
+      //     .attr("xlink:href", `#${tidyName(f.Type.family)}`);
+      // });
 
       let peopleFlipAdjust = "";
       if (flipMapY) {
@@ -233,10 +256,16 @@ document.addEventListener("DOMContentLoaded", function() {
         .data(snapPoints)
         .enter()
         .append("g")
-        .attr(
-          "transform",
-          d => `translate(${d.x - 26534}, ${d.y + 30914-8800}) rotate(${d.rotation || 0})`
-        )
+        .attr("transform", d => `translate(${d.x + crappyXoffset}, ${d.y + crappyYoffset}) rotate(${d.rotation || 0})`)
+        .append("use")
+          .attr("xlink:href", d => {
+            return `#${tidyName(d.type.family)}`
+          })
+          .attr("id", d => "desk_"+d.name)
+          .attr("class", "deskShape")
+        .select(function() {
+          return this.parentNode;
+        })
         .append("line")
         .attr("x1", 0)
         .attr("y1", 0)
