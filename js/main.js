@@ -258,41 +258,40 @@ document.addEventListener("DOMContentLoaded", function() {
         .data(snapPoints)
         .enter()
         .append("g")
-        .attr("transform", d => `translate(${d.x}, `
-                               +`${d.y}) `
+        .attr("transform", d => `translate(${d.x}, ${d.y}) `
                                +`rotate(${d.rotation || 0})`)
         .append("use")
           .attr("xlink:href", d => {
             return `#${tidyName(d.type.family)}`
           })
-          .attr("id", d => "desk_"+d.name)
+          .attr("id", d => "desk_" + d.name)
           .attr("class", "deskShape")
-        .select(function() {
-          return this.parentNode;
-        })
-        .append("line")
-        .attr("x1", 0)
-        .attr("y1", 0)
-        .attr("x2", d => d.insertionX - d.x)
-        .attr("y2", d => d.insertionY - d.y)
-        .attr("id", d => "line"+d.name)
-        .attr("class", "deskLine")
-        .style("stroke-width", "20px")
-        .style("stroke", "black")
         .select(function() {
           return this.parentNode;
         })
         .append("text")
           .classed("desk-label", true)
           .attr("text-anchor", "middle")
-          .attr("x", d => d.insertionX - d.x)
-          .attr("y", d => d.insertionY - d.y)
-          .text(d => d.name); //TODO change this back to circles once the desks are in.
-      // .append("circle")
-      // .attr("cx", d => d.x)
-      // .attr("cy", d => d.y)
-      // .attr("r", radius / 4)
-      // .style("fill", (d, i) => color(i));
+          .attr("x", 1000)
+          .attr("y", 0)
+          .text(d => d.name)
+        .select(function() {
+          return this.parentNode;
+        })
+          .append("circle")
+          .attr("cx", d => 1000)
+          .attr("cy", d => 0)
+          .attr("r", 50)
+          .style("fill", "red")
+        .select(function() {
+          return this.parentNode;
+        })
+          .append("circle")
+          .attr("cx", d => 0)
+          .attr("cy", d => 0)
+          .attr("r", 10)
+          .style("fill", "black");
+      
 
       svg.call(d3.zoom().on("zoom", zoomed));
       function zoomed() {
