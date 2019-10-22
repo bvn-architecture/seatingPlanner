@@ -256,7 +256,9 @@ document.addEventListener("DOMContentLoaded", function() {
         .data(snapPoints)
         .enter()
         .append("g")
-        .attr("transform", d => `translate(${d.x + crappyXoffset}, ${d.y + crappyYoffset}) rotate(${d.rotation || 0})`)
+        .attr("transform", d => `translate(${d.x + crappyXoffset}, `
+                               +`${d.y + crappyYoffset}) `
+                               +`rotate(${d.rotation || 0})`)
         .append("use")
           .attr("xlink:href", d => {
             return `#${tidyName(d.type.family)}`
