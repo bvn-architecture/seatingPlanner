@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SVG.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.0/dist/svg.min.js"></script>
+  </head>
+  <body>
+    <script>
+      SVG.on(document, "DOMContentLoaded", function () {
+        let draw = SVG().addTo("body").size(600, 600);
+        let rect1 = draw.rect(100, 100).attr({ fill: "red" });
+        rect1.transform({
+          rotate: 125,
+          translateX: 5,
+          translateY: 1,
+          scale: 1,
+          origin: { x: 50, y: 50 },
+        });
+        let rect2 = draw.rect(100, 100).attr({ fill: "blue" });
+        rect2.transform({
+          rotate: 125,
+          translateX: 150,
+          translateY: 1,
+          scale: 1,
+          position: { x: 50, y: 50 },
+        });
+        let rect3 = draw.rect(100, 100).attr({ fill: "green" });
+        rect3.transform({
+          rotate: 125,
+          translateX: 300,
+          translateY: 1,
+          scale: 1,
+          relative: { x: 50, y: 50 },
+        });
+      });
+    </script>
+  </body>
+</html>
